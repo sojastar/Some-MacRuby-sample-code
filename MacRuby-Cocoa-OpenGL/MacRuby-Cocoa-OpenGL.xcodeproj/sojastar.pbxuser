@@ -5,14 +5,14 @@
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
-		activeExecutable = 783BCC3F10CDFDD6000F5C0F /* MacRuby Cocoa OpenGL */;
+		activeExecutable = 783BCC3F10CDFDD6000F5C0F /* MacRuby-Cocoa-OpenGL */;
 		activeSDKPreference = macosx10.6;
-		activeTarget = 8D1107260486CEB800E47090 /* MacRuby Cocoa OpenGL */;
+		activeTarget = 8D1107260486CEB800E47090 /* MacRuby-Cocoa-OpenGL */;
 		addToTargets = (
 		);
 		codeSenseManager = 783BCC4D10CDFDF5000F5C0F /* Code sense */;
 		executables = (
-			783BCC3F10CDFDD6000F5C0F /* MacRuby Cocoa OpenGL */,
+			783BCC3F10CDFDD6000F5C0F /* MacRuby-Cocoa-OpenGL */,
 		);
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
@@ -59,26 +59,26 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 282590371;
-			PBXWorkspaceStateSaveDate = 282590371;
+			PBXPerProjectTemplateStateSaveDate = 282816775;
+			PBXWorkspaceStateSaveDate = 282816775;
 		};
 		perUserProjectItems = {
-			780B28F810D4E7F600F63E02 /* PBXTextBookmark */ = 780B28F810D4E7F600F63E02 /* PBXTextBookmark */;
-			780B28FA10D4E7F600F63E02 /* PBXTextBookmark */ = 780B28FA10D4E7F600F63E02 /* PBXTextBookmark */;
-			780B294510D4ED6E00F63E02 /* PBXTextBookmark */ = 780B294510D4ED6E00F63E02 /* PBXTextBookmark */;
-			780B29A410D5462B00F63E02 /* PBXTextBookmark */ = 780B29A410D5462B00F63E02 /* PBXTextBookmark */;
-			780B29A610D5462B00F63E02 /* PBXTextBookmark */ = 780B29A610D5462B00F63E02 /* PBXTextBookmark */;
-			780B29B210D5476D00F63E02 /* PBXTextBookmark */ = 780B29B210D5476D00F63E02 /* PBXTextBookmark */;
-			780B29B810D54CE800F63E02 /* PBXTextBookmark */ = 780B29B810D54CE800F63E02 /* PBXTextBookmark */;
-			780B29B910D54CE800F63E02 /* PBXTextBookmark */ = 780B29B910D54CE800F63E02 /* PBXTextBookmark */;
-			780B29C110D561FC00F63E02 /* PBXTextBookmark */ = 780B29C110D561FC00F63E02 /* PBXTextBookmark */;
-			78A658ED10D7A74F00820F18 /* PBXTextBookmark */ = 78A658ED10D7A74F00820F18 /* PBXTextBookmark */;
-			78A659E210D8FA1200820F18 /* PBXTextBookmark */ = 78A659E210D8FA1200820F18 /* PBXTextBookmark */;
-			78A659E310D8FA1200820F18 /* PBXTextBookmark */ = 78A659E310D8FA1200820F18 /* PBXTextBookmark */;
-			78A659E410D8FA1200820F18 /* PBXTextBookmark */ = 78A659E410D8FA1200820F18 /* PBXTextBookmark */;
-			78A6F8A910D5D16600B12773 /* PBXTextBookmark */ = 78A6F8A910D5D16600B12773 /* PBXTextBookmark */;
-			78C5A8E110D29533003F8EEA /* PBXTextBookmark */ = 78C5A8E110D29533003F8EEA /* PBXTextBookmark */;
-			78C5A8E210D29533003F8EEA /* PBXTextBookmark */ = 78C5A8E210D29533003F8EEA /* PBXTextBookmark */;
+			780B28F810D4E7F600F63E02 = 780B28F810D4E7F600F63E02 /* PBXTextBookmark */;
+			780B28FA10D4E7F600F63E02 = 780B28FA10D4E7F600F63E02 /* PBXTextBookmark */;
+			780B294510D4ED6E00F63E02 = 780B294510D4ED6E00F63E02 /* PBXTextBookmark */;
+			780B29A410D5462B00F63E02 = 780B29A410D5462B00F63E02 /* PBXTextBookmark */;
+			780B29A610D5462B00F63E02 = 780B29A610D5462B00F63E02 /* PBXTextBookmark */;
+			780B29B210D5476D00F63E02 = 780B29B210D5476D00F63E02 /* PBXTextBookmark */;
+			780B29B810D54CE800F63E02 = 780B29B810D54CE800F63E02 /* PBXTextBookmark */;
+			780B29B910D54CE800F63E02 = 780B29B910D54CE800F63E02 /* PBXTextBookmark */;
+			780B29C110D561FC00F63E02 = 780B29C110D561FC00F63E02 /* PBXTextBookmark */;
+			78A658ED10D7A74F00820F18 = 78A658ED10D7A74F00820F18 /* PBXTextBookmark */;
+			78A659E210D8FA1200820F18 = 78A659E210D8FA1200820F18 /* PBXTextBookmark */;
+			78A659E410D8FA1200820F18 = 78A659E410D8FA1200820F18 /* PBXTextBookmark */;
+			78A6F8A910D5D16600B12773 = 78A6F8A910D5D16600B12773 /* PBXTextBookmark */;
+			78AC11FF10DB5CE4002457E8 = 78AC11FF10DB5CE4002457E8 /* PBXTextBookmark */;
+			78C5A8E110D29533003F8EEA = 78C5A8E110D29533003F8EEA /* PBXTextBookmark */;
+			78C5A8E210D29533003F8EEA = 78C5A8E210D29533003F8EEA /* PBXTextBookmark */;
 		};
 		sourceControlManager = 783BCC4C10CDFDF5000F5C0F /* Source Control */;
 		userBuildSettings = {
@@ -194,7 +194,7 @@
 		vrLen = 1510;
 		vrLoc = 48;
 	};
-	783BCC3F10CDFDD6000F5C0F /* MacRuby Cocoa OpenGL */ = {
+	783BCC3F10CDFDD6000F5C0F /* MacRuby-Cocoa-OpenGL */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
 		);
@@ -217,7 +217,7 @@
 		executableSystemSymbolLevel = 0;
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
-		name = "MacRuby Cocoa OpenGL";
+		name = "MacRuby-Cocoa-OpenGL";
 		savedGlobals = {
 		};
 		showTypeColumn = 0;
@@ -262,9 +262,9 @@
 	};
 	783BCEA610CDFF96000F5C0F /* BasicOpenGLView.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1168, 13832}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 13637}}";
 			sepNavSelRange = "{5684, 13}";
-			sepNavVisRange = "{705, 1241}";
+			sepNavVisRange = "{782, 1164}";
 		};
 	};
 	783BCEA910CE0012000F5C0F /* Trackball.rb */ = {
@@ -329,16 +329,6 @@
 		vrLen = 1985;
 		vrLoc = 5348;
 	};
-	78A659E310D8FA1200820F18 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 783BCEA610CDFF96000F5C0F /* BasicOpenGLView.rb */;
-		name = "BasicOpenGLView.rb: 923";
-		rLen = 274;
-		rLoc = 19924;
-		rType = 0;
-		vrLen = 1048;
-		vrLoc = 19179;
-	};
 	78A659E410D8FA1200820F18 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 783BCEA610CDFF96000F5C0F /* BasicOpenGLView.rb */;
@@ -358,6 +348,16 @@
 		rType = 0;
 		vrLen = 272;
 		vrLoc = 0;
+	};
+	78AC11FF10DB5CE4002457E8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 783BCEA610CDFF96000F5C0F /* BasicOpenGLView.rb */;
+		name = "BasicOpenGLView.rb: 271";
+		rLen = 13;
+		rLoc = 5684;
+		rType = 0;
+		vrLen = 1164;
+		vrLoc = 782;
 	};
 	78C5A87910D24D05003F8EEA /* GLString.h */ = {
 		uiCtxt = {
@@ -403,10 +403,10 @@
 		vrLen = 253;
 		vrLoc = 0;
 	};
-	8D1107260486CEB800E47090 /* MacRuby Cocoa OpenGL */ = {
+	8D1107260486CEB800E47090 /* MacRuby-Cocoa-OpenGL */ = {
 		activeExec = 0;
 		executables = (
-			783BCC3F10CDFDD6000F5C0F /* MacRuby Cocoa OpenGL */,
+			783BCC3F10CDFDD6000F5C0F /* MacRuby-Cocoa-OpenGL */,
 		);
 	};
 }

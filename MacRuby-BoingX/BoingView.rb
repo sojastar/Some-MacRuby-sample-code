@@ -428,8 +428,6 @@ class BoingView < NSOpenGLView
 			glColor4f(0.6275 * @background_fade, 0.0, 0.6275 * @background_fade, @background_fade)
 
 
-			#i	= 40
-			#while i<= 280
 			40.step(280, 16) do |i|
 				glVertex3f(	(i * @scale_factor).floor + 0.5, (7 * @scale_factor).floor + 0.5, -500.0)
 				glVertex3f(	(i * @scale_factor).floor + 0.5, 200 * @scale_factor + 0.5, -500.0)
@@ -439,17 +437,11 @@ class BoingView < NSOpenGLView
 				glVertex3f( (i * @scale_factor).floor + 0.5, (7 * @scale_factor).floor + 0.5, -500.0)
 				glVertex3f( (i - 160) * @scale_factor * 1.1 + 160.0 * @scale_factor, -0.5, -500.0)
 
-				#i	+=16
-
 			end
 
-			i	= 8
-			while i<= 200
-			#8.step(200, 16) do |i|
+			8.step(200, 16) do |i|
 				glVertex3f(40.0 * @scale_factor, (i * @scale_factor).floor - 0.5, -500.0)
 				glVertex3f(280.0 * @scale_factor, (i * @scale_factor).floor - 0.5, -500.0)
-
-				i	+= 16
 
 			end
 
@@ -495,7 +487,7 @@ class BoingView < NSOpenGLView
 		glBegin(GL_QUADS)
 		glColor4f(0.0, 0.0, 0.0, 0.4)
 		(4*8*16).times do |i|
-			glNormal3f(@boing_data[i & ~3].nx, @boing_data[i & ~3].ny, @boing_data[i & ~3].nz)
+			glNormal3f(@boing_data[i].nx, @boing_data[i].ny, @boing_data[i].nz)
 			glVertex3f(@boing_data[i].x, @boing_data[i].y, @boing_data[i].z)
 		end	
 		glEnd()

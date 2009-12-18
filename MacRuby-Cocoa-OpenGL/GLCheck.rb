@@ -118,7 +118,7 @@ module GLCheck
 	# always detect display configuration changes and respond accordingly.
 	#
 	###
-	def GLCheck.check_opengl_capacities(max_displays)#, display_capacities, display_count)
+	def GLCheck.check_opengl_capacities(max_displays)
 
 		display_ids			= Pointer.new_with_type('^I')
 
@@ -150,20 +150,19 @@ module GLCheck
 		# If no display capacities storage was passed, abort :
 		###
 		#if display_capacities == nil then return end
-		if display_capacities == nil then display_capacities = [] end
+		display_capacities = [] if display_capacities == nil
 
 
 		# Find the capacities for each of the found displays :
 		###
-puts "1"
-		#display_ids.assign(Array.new(display_count[0], 244))
-		display_ids.assign(Array.new(32, 0))
-puts "2"
+
+		display_ids.assign(Array.new(max_displays, 0))
+
 		display_error = CGGetActiveDisplayList(max_displays, display_ids[0], display_count)
 
 		if display_error != 0		then return end
 		if display_count[0] == 0	then return end
-puts "3"
+
 		display_count[0].times do |i|
 
 			caps = {}			# create a new hash to store the capacities
@@ -186,22 +185,23 @@ puts "3"
 
 			# Get renderer info :
 			#renderer_info	= Pointer.new_with_type("^{_CGLRendererInfoObject=}")
-			renderer_info	= Pointer.new_with_type("^{_CGLRendererInfoObject}")
+			renderer_info	= Pointer.new_with_type("^{_CGLRendererInfoObj}")
 			renderer_count	= Pointer.new_with_type("i")
 			renderer_value	= Pointer.new_with_type("i")
-			
+			puts "there"
 			renderer_error	= CGLQueryRendererInfo(	caps[:cgl_display_mask],
 													renderer_info,
 													renderer_count )
-puts "4", renderer_count[0]
+
 			if renderer_error == 0 then		# If the info is successfully retrieved :
 
 				# Get the renderers count :
+
 				CGLDescribeRenderer(renderer_info[0],
 									0,
 									KCGLRPRendererCount,
 									renderer_count)
-puts "5"
+
 				# Get the info for each renderer and store it :
 				renderer_count[0].times do |j|
 
