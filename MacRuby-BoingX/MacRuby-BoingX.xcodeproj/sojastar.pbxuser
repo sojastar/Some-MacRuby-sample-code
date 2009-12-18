@@ -5,15 +5,15 @@
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
-		activeExecutable = 78A6F87F10D5CDAA00B12773 /* MacRuby BoingX */;
+		activeExecutable = 78A6F87F10D5CDAA00B12773 /* MacRuby-BoingX */;
 		activeSDKPreference = macosx10.6;
-		activeTarget = 8D1107260486CEB800E47090 /* MacRuby BoingX */;
+		activeTarget = 8D1107260486CEB800E47090 /* MacRuby-BoingX */;
 		addToTargets = (
-			8D1107260486CEB800E47090 /* MacRuby BoingX */,
+			8D1107260486CEB800E47090 /* MacRuby-BoingX */,
 		);
 		codeSenseManager = 78A6F88710D5CDC900B12773 /* Code sense */;
 		executables = (
-			78A6F87F10D5CDAA00B12773 /* MacRuby BoingX */,
+			78A6F87F10D5CDAA00B12773 /* MacRuby-BoingX */,
 		);
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
@@ -38,15 +38,37 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 282561679;
-			PBXWorkspaceStateSaveDate = 282561679;
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					953,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 282815956;
+			PBXWorkspaceStateSaveDate = 282815956;
 		};
 		perUserProjectItems = {
+			7875B41810DB6D8A005FD063 /* PBXTextBookmark */ = 7875B41810DB6D8A005FD063 /* PBXTextBookmark */;
+			7875B43410DB7100005FD063 /* PBXTextBookmark */ = 7875B43410DB7100005FD063 /* PBXTextBookmark */;
 			78A659BA10D893BA00820F18 /* PBXTextBookmark */ = 78A659BA10D893BA00820F18 /* PBXTextBookmark */;
 			78A659BB10D893BA00820F18 /* PBXTextBookmark */ = 78A659BB10D893BA00820F18 /* PBXTextBookmark */;
 			78A659BC10D893BA00820F18 /* PBXTextBookmark */ = 78A659BC10D893BA00820F18 /* PBXTextBookmark */;
-			78A659BD10D893BA00820F18 /* PBXTextBookmark */ = 78A659BD10D893BA00820F18 /* PBXTextBookmark */;
-			78A659BE10D893BA00820F18 /* PBXTextBookmark */ = 78A659BE10D893BA00820F18 /* PBXTextBookmark */;
 			78A6FB2010D7435700B12773 /* PBXTextBookmark */ = 78A6FB2010D7435700B12773 /* PBXTextBookmark */;
 			78A6FC6C10D7796300B12773 /* PlistBookmark */ = 78A6FC6C10D7796300B12773 /* PlistBookmark */;
 			78A6FC8610D7819500B12773 /* PBXTextBookmark */ = 78A6FC8610D7819500B12773 /* PBXTextBookmark */;
@@ -74,6 +96,26 @@
 			sepNavSelRange = "{255, 0}";
 			sepNavVisRange = "{0, 551}";
 		};
+	};
+	7875B41810DB6D8A005FD063 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78A6F8AF10D5D37300B12773 /* BoingView.rb */;
+		name = "BoingView.rb: 505";
+		rLen = 0;
+		rLoc = 12197;
+		rType = 0;
+		vrLen = 1263;
+		vrLoc = 11388;
+	};
+	7875B43410DB7100005FD063 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78A6F8AF10D5D37300B12773 /* BoingView.rb */;
+		name = "BoingView.rb: 489";
+		rLen = 0;
+		rLoc = 11857;
+		rType = 0;
+		vrLen = 1500;
+		vrLoc = 8640;
 	};
 	78A659BA10D893BA00820F18 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -105,27 +147,7 @@
 		vrLen = 241;
 		vrLoc = 0;
 	};
-	78A659BD10D893BA00820F18 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 78A6F8AF10D5D37300B12773 /* BoingView.rb */;
-		name = "BoingView.rb: 1";
-		rLen = 17368;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1184;
-		vrLoc = 11869;
-	};
-	78A659BE10D893BA00820F18 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 78A6F8AF10D5D37300B12773 /* BoingView.rb */;
-		name = "BoingView.rb: 501";
-		rLen = 0;
-		rLoc = 12103;
-		rType = 0;
-		vrLen = 994;
-		vrLoc = 6953;
-	};
-	78A6F87F10D5CDAA00B12773 /* MacRuby BoingX */ = {
+	78A6F87F10D5CDAA00B12773 /* MacRuby-BoingX */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
 		);
@@ -148,7 +170,7 @@
 		executableSystemSymbolLevel = 0;
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
-		name = "MacRuby BoingX";
+		name = "MacRuby-BoingX";
 		savedGlobals = {
 		};
 		showTypeColumn = 0;
@@ -186,9 +208,9 @@
 	};
 	78A6F8AF10D5D37300B12773 /* BoingView.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 10231}}";
-			sepNavSelRange = "{12103, 0}";
-			sepNavVisRange = "{6953, 994}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 10036}}";
+			sepNavSelRange = "{11857, 0}";
+			sepNavVisRange = "{8640, 1500}";
 		};
 	};
 	78A6F8B110D5D42B00B12773 /* Vertex.rb */ = {
@@ -229,10 +251,10 @@
 		vrLen = 247;
 		vrLoc = 0;
 	};
-	8D1107260486CEB800E47090 /* MacRuby BoingX */ = {
+	8D1107260486CEB800E47090 /* MacRuby-BoingX */ = {
 		activeExec = 0;
 		executables = (
-			78A6F87F10D5CDAA00B12773 /* MacRuby BoingX */,
+			78A6F87F10D5CDAA00B12773 /* MacRuby-BoingX */,
 		);
 	};
 }

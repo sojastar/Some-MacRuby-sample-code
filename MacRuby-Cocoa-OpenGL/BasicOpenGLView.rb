@@ -900,10 +900,12 @@ class BasicOpenGLView < NSOpenGLView
 		@current_context	= openGLContext
 		@current_context.setValues(swap_int, forParameter:NSOpenGLCPSwapInterval)	# set to vbl sync
 
-c,d	= GLCheck::check_opengl_capacities(0)
-puts d
-c,d	= GLCheck::check_opengl_capacities(d)
-puts c
+		
+		# Retrieving the OpenGL capacities :
+		# THE BROKEN PART
+		#c,d	= GLCheck::check_opengl_capacities(0)
+		#c,d	= GLCheck::check_opengl_capacities(d)
+
 
 		# Get the application start time :
 		@start_time	= Time.now.to_f
