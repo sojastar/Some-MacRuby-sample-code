@@ -122,7 +122,7 @@ module GLCheck
 
 		display_ids			= Pointer.new_with_type('^I')
 
-		display_capacities	= nil
+		display_capacities	= []	#nil
 		
 		display_count		= Pointer.new_with_type('I')
 		display_count[0]	= 0								# no display yet
@@ -150,7 +150,7 @@ module GLCheck
 		# If no display capacities storage was passed, abort :
 		###
 		#if display_capacities == nil then return end
-		display_capacities = [] if display_capacities == nil
+		#display_capacities = [] if display_capacities == nil
 
 
 		# Find the capacities for each of the found displays :
