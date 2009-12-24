@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -314,6 +312,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -331,16 +331,16 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>78C90AC710DC98A7008BBBF0</string>
+										<string>78D4E10C10E363A700A9BCE1</string>
 										<key>history</key>
 										<array>
 											<string>78A6FC6C10D7796300B12773</string>
 											<string>78A6FC8610D7819500B12773</string>
 											<string>78A659BA10D893BA00820F18</string>
 											<string>78C90A9810DC9742008BBBF0</string>
-											<string>78C90A9910DC9742008BBBF0</string>
-											<string>78C90AC610DC98A7008BBBF0</string>
-											<string>78C90A9A10DC9742008BBBF0</string>
+											<string>78EA801B10DDFE1D00C437FE</string>
+											<string>78EA806510DDFF5200C437FE</string>
+											<string>78D4E0ED10E3633B00A9BCE1</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -398,9 +398,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>78C90AC810DC98A7008BBBF0</string>
+				<string>78D4E10D10E363A700A9BCE1</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>78C90AC910DC98A7008BBBF0</string>
+				<string>78D4E10E10E363A700A9BCE1</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -538,8 +538,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>78A6F90410D5E7EA00B12773</string>
+		<string>78D4E11710E363A700A9BCE1</string>
+		<string>78D4E11810E363A700A9BCE1</string>
+		<string>78D4E11910E363A700A9BCE1</string>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>78A6F90410D5E7EA00B12773</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-BoingX/MacRuby-BoingX.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -620,7 +624,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>78A6F90410D5E7EA00B12773</string>
-				<string>78C90ACA10DC98A7008BBBF0</string>
+				<string>78D4E10F10E363A700A9BCE1</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -742,13 +746,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>78C90ACB10DC98A7008BBBF0</string>
+				<string>78D4E11010E363A700A9BCE1</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>78C90ACC10DC98A7008BBBF0</string>
-				<string>78C90ACD10DC98A7008BBBF0</string>
-				<string>78C90ACE10DC98A7008BBBF0</string>
-				<string>78C90ACF10DC98A7008BBBF0</string>
-				<string>78C90AD010DC98A7008BBBF0</string>
+				<string>78D4E11110E363A700A9BCE1</string>
+				<string>78D4E11210E363A700A9BCE1</string>
+				<string>78D4E11310E363A700A9BCE1</string>
+				<string>78D4E11410E363A700A9BCE1</string>
+				<string>78D4E11510E363A700A9BCE1</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -757,7 +761,7 @@
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -775,34 +779,34 @@
 							<key>Dock</key>
 							<array>
 								<dict>
+									<key>BecomeActive</key>
+									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
 										<string>1CDD528C0622207200134675</string>
 										<key>PBXProjectModuleLabel</key>
-										<string></string>
+										<string>BoingView.rb</string>
 										<key>StatusBarVisibility</key>
 										<true/>
 									</dict>
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{0, 0}, {781, 212}}</string>
+										<string>{{0, 0}, {818, 598}}</string>
 										<key>RubberWindowFrame</key>
-										<string>21 385 781 470 0 0 1440 878 </string>
+										<string>-1684 164 818 856 -1920 0 1920 1200 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXNavigatorGroup</string>
 									<key>Proportion</key>
-									<string>781pt</string>
+									<string>818pt</string>
 								</dict>
 							</array>
 							<key>Proportion</key>
-							<string>212pt</string>
+							<string>598pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -813,9 +817,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 217}, {781, 212}}</string>
+								<string>{{0, 603}, {818, 212}}</string>
 								<key>RubberWindowFrame</key>
-								<string>21 385 781 470 0 0 1440 878 </string>
+								<string>-1684 164 818 856 -1920 0 1920 1200 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXProjectFindModule</string>
@@ -824,7 +828,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>429pt</string>
+					<string>815pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -838,13 +842,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D57069F1CE1000CFCEE</string>
-				<string>78A6F94310D5EDCE00B12773</string>
-				<string>78A6F94410D5EDCE00B12773</string>
+				<string>78D4E0A710E3577A00A9BCE1</string>
+				<string>78D4E0A810E3577A00A9BCE1</string>
 				<string>1CDD528C0622207200134675</string>
 				<string>1CD0528E0623707200166675</string>
 			</array>
 			<key>WindowString</key>
-			<string>21 385 781 470 0 0 1440 878 </string>
+			<string>-1684 164 818 856 -1920 0 1920 1200 </string>
 			<key>WindowToolGUID</key>
 			<string>1C530D57069F1CE1000CFCEE</string>
 			<key>WindowToolIsVisible</key>
@@ -904,7 +908,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>78C90AA610DC9742008BBBF0</string>
+				<string>78D4E11610E363A700A9BCE1</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

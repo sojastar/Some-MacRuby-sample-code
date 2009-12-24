@@ -12,7 +12,7 @@ class BoingView < NSOpenGLView
 
 		# 'Smooth' attributes : attributes that allow for a smoother rendering
 		# ( with multiple samples )
-		smooth_attributes			= Pointer.new_with_type('I')
+		smooth_attributes			= Pointer.new_with_type('I', 14)
 		smooth_attributes[0]		= NSOpenGLPFAAccelerated
 		smooth_attributes[1]		= NSOpenGLPFADoubleBuffer
 		smooth_attributes[2]		= NSOpenGLPFADepthSize
@@ -25,12 +25,12 @@ class BoingView < NSOpenGLView
 		smooth_attributes[9]		= 1
 		smooth_attributes[10]		= KCGLPFASamples
 		smooth_attributes[11]		= 2
-		#smooth_attributes[12]		= NSOpenGLPFANoRecovery
-		smooth_attributes[12]		= 0
+		smooth_attributes[12]		= NSOpenGLPFANoRecovery
+		smooth_attributes[13]		= 0
 
 		# 'Jaggy' attributes : attributes that allow for a jaggyer rendering
 		# ( without multiple sample )
-		jaggy_attributes		= Pointer.new_with_type('I')
+		jaggy_attributes		= Pointer.new_with_type('I', 10)
 		jaggy_attributes[0]		= NSOpenGLPFAAccelerated
 		jaggy_attributes[1]		= NSOpenGLPFADoubleBuffer
 		jaggy_attributes[2]		= NSOpenGLPFADepthSize
@@ -39,8 +39,8 @@ class BoingView < NSOpenGLView
 		jaggy_attributes[5]		= 8
 		jaggy_attributes[6]		= NSOpenGLPFAColorSize
 		jaggy_attributes[7]		= 32
-		#jaggy_attributes[8]		= NSOpenGLPFANoRecovery
-		jaggy_attributes[8]	= 0
+		jaggy_attributes[8]		= NSOpenGLPFANoRecovery
+		jaggy_attributes[9]		= 0
 
 
 		# Try to create a pixel format from the 'smooth' attributes :
@@ -66,9 +66,7 @@ class BoingView < NSOpenGLView
 
 	def initialize_animation_timer
 
-		@timer	= NSTimer.timerWithTimeInterval(1.0/60.0, target:self, selector:"animate:", userInfo:nil, repeats:true)
-		NSRunLoop.currentRunLoop.addTimer(@timer, forMode:NSDefaultRunLoopMode)
-		NSRunLoop.currentRunLoop.addTimer(@timer, forMode:NSEventTrackingRunLoopMode)
+		@timer	= NSTimer.scheduledTimerWithTimeInterval(1.0/60.0, target:self, selector:"animate:", userInfo:nil, repeats:true)
 
 	end
 
@@ -79,52 +77,52 @@ class BoingView < NSOpenGLView
 	def initialize_lighting_parameters
 
 		# Defining the scene's light parameters :
-		@light_position		= Pointer.new_with_type('f')
+		@light_position		= Pointer.new_with_type('f', 4)
 		@light_position[0]	= -2.0
 		@light_position[1]	=  2.0
 		@light_position[2]	=  1.0
 		@light_position[3]	=  0.0
 
-		@light_ambient		= Pointer.new_with_type('f')
+		@light_ambient		= Pointer.new_with_type('f', 4)
 		@light_ambient[0]	= 0.2
 		@light_ambient[1]	= 0.2
 		@light_ambient[2]	= 0.2
 		@light_ambient[3]	= 0.2
-		@light_diffuse		= Pointer.new_with_type('f')
+		@light_diffuse		= Pointer.new_with_type('f', 4)
 		@light_diffuse[0]	= 1.0
 		@light_diffuse[1]	= 1.0
 		@light_diffuse[2]	= 1.0
 		@light_diffuse[3]	= 1.0
-		@light_specular		= Pointer.new_with_type('f')
+		@light_specular		= Pointer.new_with_type('f', 4)
 		@light_specular[0]	= 1.0
 		@light_specular[1]	= 1.0
 		@light_specular[2]	= 1.0
 		@light_specular[3]	= 1.0
 
 		# Defining the ball's material parameters :
-		@material_shininess		= Pointer.new_with_type('f')
+		@material_shininess		= Pointer.new_with_type('f', 4)
 		@material_shininess[0]	= 10.0
 		@material_shininess[1]	= 0.0
 		@material_shininess[2]	= 0.0
 		@material_shininess[3]	= 0.0
 
-		@material_ambient		= Pointer.new_with_type('f')
+		@material_ambient		= Pointer.new_with_type('f', 4)
 		@material_ambient[0]	= 1.0
 		@material_ambient[1]	= 1.0
 		@material_ambient[2]	= 1.0
 		@material_ambient[3]	= 1.0
-		@material_diffuse		= Pointer.new_with_type('f')
+		@material_diffuse		= Pointer.new_with_type('f', 4)
 		@material_diffuse[0]	= 1.0
 		@material_diffuse[1]	= 1.0
 		@material_diffuse[2]	= 1.0
 		@material_diffuse[3]	= 1.0
-		@material_specular		= Pointer.new_with_type('f')
+		@material_specular		= Pointer.new_with_type('f', 4)
 		@material_specular[0]	= 1.0
 		@material_specular[1]	= 1.0
 		@material_specular[2]	= 1.0
 		@material_specular[3]	= 1.0
 
-		@material_emission		= Pointer.new_with_type('f')
+		@material_emission		= Pointer.new_with_type('f', 4)
 		@material_emission[0]	= 0.0
 		@material_emission[1]	= 0.0
 		@material_emission[2]	= 0.0
@@ -545,7 +543,7 @@ class BoingView < NSOpenGLView
 		# Ambient light :
 		glLightModeli(GL_LIGHT_MODEL_LOCAL_VIEWER, GL_FALSE)
 		glLightModeli(GL_LIGHT_MODEL_TWO_SIDE, GL_FALSE)
-		light_model_ambient		= Pointer.new_with_type('f')
+		light_model_ambient		= Pointer.new_with_type('f', 4)
 		light_model_ambient[0]	= 1.0 - light_factor
 		light_model_ambient[1]	= 1.0 - light_factor
 		light_model_ambient[2]	= 1.0 - light_factor
@@ -555,7 +553,7 @@ class BoingView < NSOpenGLView
 		# Directional white light :
 		glLightfv(GL_LIGHT0, GL_AMBIENT, @light_ambient)
 		glLightfv(GL_LIGHT0, GL_DIFFUSE, @light_diffuse)
-		light_specular		= Pointer.new_with_type('f')
+		light_specular		= Pointer.new_with_type('f', 4)
 		light_specular[0]	= light_factor
 		light_specular[1]	= light_factor
 		light_specular[2]	= light_factor

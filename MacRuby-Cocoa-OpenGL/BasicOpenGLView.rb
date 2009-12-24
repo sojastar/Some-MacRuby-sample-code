@@ -53,7 +53,7 @@ class BasicOpenGLView < NSOpenGLView
 	###
 	def basic_pixel_format
 
-		attributes		= Pointer.new_with_type('I')
+		attributes		= Pointer.new_with_type('I', 5)
 		attributes[0]	= NSOpenGLPFAWindow
 		attributes[1]	= NSOpenGLPFADoubleBuffer			# double buffered
 		attributes[2]	= NSOpenGLPFADepthSize
@@ -903,9 +903,9 @@ class BasicOpenGLView < NSOpenGLView
 		
 		# Retrieving the OpenGL capacities :
 		# THE BROKEN PART
-		#c,d	= GLCheck::check_opengl_capacities(0)
-		#c,d	= GLCheck::check_opengl_capacities(d)
-
+		c,d	= GLCheck::check_opengl_capacities(0)
+		c,d	= GLCheck::check_opengl_capacities(d)
+		puts c
 
 		# Get the application start time :
 		@start_time	= Time.now.to_f

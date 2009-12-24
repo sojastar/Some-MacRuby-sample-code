@@ -189,67 +189,70 @@ module GLCheck
 			renderer_count	= Pointer.new_with_type("i")
 			renderer_value	= Pointer.new_with_type("i")
 			puts "there"
-			renderer_error	= CGLQueryRendererInfo(	caps[:cgl_display_mask],
-													renderer_info,
-													renderer_count )
+			#renderer_error	= CGLQueryRendererInfo(	caps[:cgl_display_mask],
+			#										renderer_info,
+			#										renderer_count )
 
-			if renderer_error == 0 then		# If the info is successfully retrieved :
+			#if renderer_error == 0 then		# If the info is successfully retrieved :
 
 				# Get the renderers count :
 
-				CGLDescribeRenderer(renderer_info[0],
-									0,
-									KCGLRPRendererCount,
-									renderer_count)
+			#	CGLDescribeRenderer(renderer_info[0],
+			#						0,
+			#						KCGLRPRendererCount,
+			#						renderer_count)
 
 				# Get the info for each renderer and store it :
-				renderer_count[0].times do |j|
+			#	renderer_count[0].times do |j|
 
 					# Accelerated renderer ?
-					CGLDescribeRenderer (renderer_info[0], j, KCGLRPAccelerated, renderer_value)
+			#		CGLDescribeRenderer (renderer_info[0], j, KCGLRPAccelerated, renderer_value)
 
-					if renderer_value == 1 then		# If the renderer is accelerated :
+			#		if renderer_value == 1 then		# If the renderer is accelerated :
 
-						# What is the renderer ID ?
-						CGLDescribeRenderer (renderer_info[0], j, KCGLRPRendererID, renderer_value)
-						caps[:renderer_id] = renderer_value
+			#			# What is the renderer ID ?
+			#			CGLDescribeRenderer (renderer_info[0], j, KCGLRPRendererID, renderer_value)
+			#			caps[:renderer_id] = renderer_value
 
 						# Can we do full screen ?
-						CGLDescribeRenderer (renderer_info[0], j, KCGLRPFullScreen, renderer_value)
-						case renderer_value[0]
-						when 1 then
-							caps[:full_screen_capable] = true
-						when 2 then
-							caps[:full_screen_capable] = false
-						else
-							caps[:full_screen_capable] = false
-						end
+			#			CGLDescribeRenderer (renderer_info[0], j, KCGLRPFullScreen, renderer_value)
+			#			case renderer_value[0]
+			#			when 1 then
+			#				caps[:full_screen_capable] = true
+			#			when 2 then
+			#				caps[:full_screen_capable] = false
+			#			else
+			#				caps[:full_screen_capable] = false
+			#			end
 
 						# How much VRAM ?
-						CGLDescribeRenderer (renderer_info[0], j, KCGLRPVideoMemory, renderer_value)
-						caps[:device_vram] = renderer_value[0]
+			#			CGLDescribeRenderer (renderer_info[0], j, KCGLRPVideoMemory, renderer_value)
+			#			caps[:device_vram] = renderer_value[0]
 
 						# How much texture memory ?
-						CGLDescribeRenderer (renderer_info[0], j, KCGLRPTextureMemory, renderer_value)
-						caps[:device_texture_ram] = renderer_value[0]
+			#			CGLDescribeRenderer (renderer_info[0], j, KCGLRPTextureMemory, renderer_value)
+			#			caps[:device_texture_ram] = renderer_value[0]
 
-						break
+			#			break
 
-					end
+			#		end
 
-				end
+			#	end
 
-			end
+			#end
 
 			# Disposing of the CGLRendererInfoObject object :
-			CGLDestroyRendererInfo(renderer_info[0])
+			#CGLDestroyRendererInfo(renderer_info[0])
 
-
+puts "here"
 			# Context info :
-			pixel_format		= Pointer.new_with_type("^{_CGLPixelFormatObject=}")
+			#pixel_format		= Pointer.new_with_type("^{_CGLPixelFormatObject=}")
+			pixel_format		= Pointer.new_with_type("^{_CGLPixelFormatObject}")
 			pixel_format_count	= Pointer.new_with_type("l")
-			current_context		= Pointer.new_with_type("^{_CGLContextObject=}")
-			cgl_context			= Pointer.new_with_type("^{_CGLContextObject=}")
+			#current_context		= Pointer.new_with_type("^{_CGLContextObject=}")
+			current_context		= Pointer.new_with_type("^CGLContextObj")
+			#cgl_context			= Pointer.new_with_type("^{_CGLContextObject=}")
+			cgl_context			= Pointer.new_with_type("^CGLContextObj")
 
 
 			# Get the current CGL context

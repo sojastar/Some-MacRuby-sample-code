@@ -22,7 +22,7 @@
 					20,
 					993,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -61,6 +61,10 @@
 			};
 			PBXPerProjectTemplateStateSaveDate = 282892344;
 			PBXWorkspaceStateSaveDate = 282892344;
+		};
+		perUserProjectItems = {
+			78C90B5410DCC3C1008BBBF0 /* PBXTextBookmark */ = 78C90B5410DCC3C1008BBBF0 /* PBXTextBookmark */;
+			78C90B5510DCC3C1008BBBF0 /* PBXTextBookmark */ = 78C90B5510DCC3C1008BBBF0 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 78C90AB910DC9858008BBBF0 /* Source Control */;
 		userBuildSettings = {
@@ -118,10 +122,30 @@
 	};
 	78C90ABC10DC986F008BBBF0 /* MyOpenGLView.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 741}}";
-			sepNavSelRange = "{370, 0}";
-			sepNavVisRange = "{0, 383}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1456}}";
+			sepNavSelRange = "{2263, 0}";
+			sepNavVisRange = "{1073, 1371}";
 		};
+	};
+	78C90B5410DCC3C1008BBBF0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78C90ABC10DC986F008BBBF0 /* MyOpenGLView.rb */;
+		name = "MyWindow.rb: 1";
+		rLen = 0;
+		rLoc = 2444;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	78C90B5510DCC3C1008BBBF0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78C90ABC10DC986F008BBBF0 /* MyOpenGLView.rb */;
+		name = "MyOpenGLView.rb: 96";
+		rLen = 0;
+		rLoc = 2263;
+		rType = 0;
+		vrLen = 1371;
+		vrLoc = 1073;
 	};
 	8D1107260486CEB800E47090 /* cgl_renderer_info_obj */ = {
 		activeExec = 0;
