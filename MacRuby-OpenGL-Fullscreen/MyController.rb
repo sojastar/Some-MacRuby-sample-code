@@ -4,12 +4,12 @@
 #
 ###
 
-class MyController # < NSOpenGLView
+class MyController
 
-	attr_reader	:full_screen_flag,
-				:animation_flag
+	#attr_reader	:full_screen_flag,
+	#			:animation_flag
 
-	attr_writer :opengl_view
+	attr_accessor :opengl_view, :full_screen_flag, :animation_flag
 
 
 
@@ -18,16 +18,6 @@ class MyController # < NSOpenGLView
 		@animation_flag	= false
 
 		start_animation
-
-	end
-
-
-
-
-
-	def go_full_screen(sender)
-
-		
 
 	end
 
@@ -46,6 +36,7 @@ class MyController # < NSOpenGLView
 
 			case
 			when first_character.bytes.to_a[0] == 27
+				@stay_in_fullscreen_mode	= false
 				puts "escape"
 
 			when first_character.bytes.to_a[0] == 32
@@ -54,6 +45,7 @@ class MyController # < NSOpenGLView
 
 			when first_character == 'w' || first_character == 'W'
 				puts "wireframe"
+				#toggle_wireframe
 
 			end
 
@@ -107,6 +99,8 @@ class MyController # < NSOpenGLView
 
 
 	def animation_timer_fired(timer)
+
+		@opengl_view.scene.advance_time_by(1.0/60.0)
 
 		@opengl_view.setNeedsDisplay true
 

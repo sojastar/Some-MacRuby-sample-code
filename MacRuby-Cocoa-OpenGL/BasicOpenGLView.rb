@@ -903,9 +903,9 @@ class BasicOpenGLView < NSOpenGLView
 		
 		# Retrieving the OpenGL capacities :
 		# THE BROKEN PART
-		c,d	= GLCheck::check_opengl_capacities(0)
-		c,d	= GLCheck::check_opengl_capacities(d)
-		puts c
+		#c,d	= GLCheck::check_opengl_capacities(0)
+		#c,d	= GLCheck::check_opengl_capacities(d)
+		#puts c
 
 		# Get the application start time :
 		@start_time	= Time.now.to_f

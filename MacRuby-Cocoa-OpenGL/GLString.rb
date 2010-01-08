@@ -8,7 +8,7 @@
 
 
 
-require '../../ObjectiveCGLString'
+require 'ObjectiveCGLString'
 
 class GLString
 

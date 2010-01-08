@@ -795,7 +795,7 @@
 				<int key="NSWindowStyleMask">271</int>
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{85, 223}, {800, 620}}</string>
-				<int key="NSWTFlags">1946157056</int>
+				<int key="NSWTFlags">1677721600</int>
 				<string key="NSWindowTitle">MacRuby-Cocoa-OpenGL example</string>
 				<string key="NSWindowClass">NSWindow</string>
 				<nil key="NSViewClass"/>
@@ -2750,7 +2750,7 @@
 			<integer value="3000" key="NS.object.0"/>
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
-		<string key="IBDocument.LastKnownRelativeProjectPath">../MacRuby Cocoa OpenGL.xcodeproj</string>
+		<string key="IBDocument.LastKnownRelativeProjectPath">../MacRuby-Cocoa-OpenGL.xcodeproj</string>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 	</data>
 </archive>

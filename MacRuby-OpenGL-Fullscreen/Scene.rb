@@ -63,9 +63,17 @@ class Scene
 
 
 	def set_viewport_rectangle(bounds)
+puts "in set_viewport_rectangle"
+#puts bounds
+		glViewport(bounds.origin.x, bounds.origin.y, bounds.size.width, bounds.size.height)
+puts "here"
+		glMatrixMode(GL_PROJECTION)
+		glLoadIdentity
+		gluPerspective(30, bounds.size.width / bounds.size.height, 1.0, 1000.0)
 
-		
-
+		glMatrixMode(GL_MODELVIEW)
+		glLoadIdentity
+puts "out set_viewport_rectangle"
 	end
 
 
@@ -77,8 +85,8 @@ class Scene
 		# Set up rendering state.
 		glEnable(GL_DEPTH_TEST)
 		glEnable(GL_CULL_FACE)
-		glEnable(GL_LIGHTING)
-		glEnable(GL_LIGHT0)
+		#glEnable(GL_LIGHTING)
+		#glEnable(GL_LIGHT0)
 
 		# Upload the texture.  Since we are sharing OpenGL object between our FullScreen and non-FullScreen contexts, we only need to do this once.
 		#if texture_name[0] == 0 then
@@ -94,7 +102,7 @@ class Scene
 
 
 		# Clear the framebuffer :
-		glClearColor(0, 0, 0, 0)
+		glClearColor(0.2, 0.2, 0.2, 0)
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
 
 
@@ -103,9 +111,9 @@ class Scene
 
 		# Set up our single directional light (the Sun!) :
 		
-		@light_direction[0] = Math::cos(degree_to_radiant(@sun_angle))
-		@light_direction[2] = Math::sin(degree_to_radiant(@sun_angle))
-		glLightfv(GL_LIGHT0, GL_POSITION, @light_direction)
+		#@light_direction[0] = Math::cos(degree_to_radiant(@sun_angle))
+		#@light_direction[2] = Math::sin(degree_to_radiant(@sun_angle))
+		#glLightfv(GL_LIGHT0, GL_POSITION, @light_direction)
 	
 
 		# Back the camera off a bit :
@@ -117,8 +125,9 @@ class Scene
 		quadric = gluNewQuadric
 
 
+		glColor3f(1.0, 0.85, 0.35)
 		gluQuadricDrawStyle(quadric, GLU_LINE) #if @wireframe
-glColor3f(1.0, 0.85, 0.35)
+
 		#gluQuadricTexture(quadric, GL_TRUE)
 		#glMaterialfv(GL_FRONT, GL_AMBIENT, @material_ambient)
 		#glMaterialfv(GL_FRONT, GL_DIFFUSE, @material_diffuse)
@@ -130,7 +139,7 @@ glColor3f(1.0, 0.85, 0.35)
 
 		gluSphere(quadric, 0.25, 48, 24)
 		gluDeleteQuadric(quadric)
-		quadric = nil
+
 	
 		glPopMatrix
     
@@ -150,7 +159,7 @@ glColor3f(1.0, 0.85, 0.35)
 		new_animation_phase	= @animation_phase + 0.015625 * phase_delta
 		new_animation_phase	= new_animation_phase - new_animation_phase.floor
 
-		animation_phase		= new_animation_phase
+		@animation_phase		= new_animation_phase
 
 	end
 
@@ -158,7 +167,7 @@ glColor3f(1.0, 0.85, 0.35)
 
 
 
-	def toggleWireframe
+	def toggle_wireframe
 
 		@wireframe = !@wireframe
 
