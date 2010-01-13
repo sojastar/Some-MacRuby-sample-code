@@ -63,17 +63,16 @@ class Scene
 
 
 	def set_viewport_rectangle(bounds)
-puts "in set_viewport_rectangle"
-#puts bounds
+
 		glViewport(bounds.origin.x, bounds.origin.y, bounds.size.width, bounds.size.height)
-puts "here"
+
 		glMatrixMode(GL_PROJECTION)
 		glLoadIdentity
 		gluPerspective(30, bounds.size.width / bounds.size.height, 1.0, 1000.0)
 
 		glMatrixMode(GL_MODELVIEW)
 		glLoadIdentity
-puts "out set_viewport_rectangle"
+
 	end
 
 
@@ -102,7 +101,7 @@ puts "out set_viewport_rectangle"
 
 
 		# Clear the framebuffer :
-		glClearColor(0.2, 0.2, 0.2, 0)
+		glClearColor(0, 0, 0, 0)
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
 
 

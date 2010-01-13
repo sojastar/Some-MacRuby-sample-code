@@ -6,18 +6,22 @@
 
 class MyController
 
-	#attr_reader	:full_screen_flag,
-	#			:animation_flag
-
-	attr_accessor :opengl_view, :full_screen_flag, :animation_flag
+	attr_accessor	:opengl_view, :full_screen,
+					:full_screen_flag, :animation_flag,
+					:scene
 
 
 
 	def awakeFromNib
 
-		@animation_flag	= false
+		# Setting the scene :
+		@scene			= Scene.new
 
+
+		# Setting and starting the animation : 
+		@animation_flag	= false
 		start_animation
+
 
 	end
 
@@ -29,19 +33,17 @@ class MyController
 
 		characters = the_event.characters
 
-
 		if characters.length > 0 then
 
 			first_character = characters[0]
 
 			case
 			when first_character.bytes.to_a[0] == 27
-				@stay_in_fullscreen_mode	= false
-				puts "escape"
+				@full_screen.stay_in_fullscreen_mode	= false
 
 			when first_character.bytes.to_a[0] == 32
 				puts "rotation"
-				toggle_animation
+				#toggle_animation
 
 			when first_character == 'w' || first_character == 'W'
 				puts "wireframe"
@@ -51,6 +53,16 @@ class MyController
 
 		end
 
+
+	end
+
+
+
+
+
+	def go_full_screen(sender)
+
+		@full_screen.go_full_screen
 
 	end
 
@@ -83,6 +95,7 @@ class MyController
 
 
 
+
 	def stop_animation_timer
 
 		if @animation_timer != nil then
@@ -100,7 +113,7 @@ class MyController
 
 	def animation_timer_fired(timer)
 
-		@opengl_view.scene.advance_time_by(1.0/60.0)
+		@scene.advance_time_by(1.0/60.0)
 
 		@opengl_view.setNeedsDisplay true
 
