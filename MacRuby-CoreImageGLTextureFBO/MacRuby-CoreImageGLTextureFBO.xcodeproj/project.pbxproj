@@ -45,13 +45,11 @@
 /* Begin PBXBuildFile section */
 		4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */; };
 		4DE3BE140D8651D900ECA448 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE3BE130D8651D900ECA448 /* MacRuby.framework */; };
-		783601AF10DDD80300099766 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783601AE10DDD80300099766 /* OpenGL.framework */; };
-		787934D810F4CA79006FA92A /* Fullscreen.rb in Resources */ = {isa = PBXBuildFile; fileRef = 787934D710F4CA79006FA92A /* Fullscreen.rb */; };
-		78923C07110088A1009E6EA6 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 78923C06110088A1009E6EA6 /* Makefile */; };
-		78C90BAF10DDD6C0008BBBF0 /* MyController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 78C90BAE10DDD6C0008BBBF0 /* MyController.rb */; };
-		78C90BB110DDD6E0008BBBF0 /* MyOpenGLView.rb in Resources */ = {isa = PBXBuildFile; fileRef = 78C90BB010DDD6E0008BBBF0 /* MyOpenGLView.rb */; };
-		78C90BB310DDD6F6008BBBF0 /* Scene.rb in Resources */ = {isa = PBXBuildFile; fileRef = 78C90BB210DDD6F6008BBBF0 /* Scene.rb */; };
-		78D9C16310F1FDAD000E3F25 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D9C16210F1FDAD000E3F25 /* GLUT.framework */; };
+		780C5E771104583600C1A40D /* MyOpenGLView.rb in Resources */ = {isa = PBXBuildFile; fileRef = 780C5E761104583600C1A40D /* MyOpenGLView.rb */; };
+		780C5EC71104AAC000C1A40D /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 780C5EC61104AAC000C1A40D /* icon.icns */; };
+		780C5EC91104AACA00C1A40D /* Flowers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 780C5EC81104AACA00C1A40D /* Flowers.jpg */; };
+		780C5EE9110584B800C1A40D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780C5EE8110584B800C1A40D /* OpenGL.framework */; };
+		780C5F2C11058D9500C1A40D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780C5F2B11058D9500C1A40D /* QuartzCore.framework */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -82,17 +80,13 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		4DE339F60D74FCDD00ADB6EE /* rb_main.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		4DE3BE130D8651D900ECA448 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = /Library/Frameworks/MacRuby.framework; sourceTree = "<absolute>"; };
-		783601AE10DDD80300099766 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		787934D710F4CA79006FA92A /* Fullscreen.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Fullscreen.rb; sourceTree = "<group>"; };
-		78923BD211008815009E6EA6 /* Texturing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texturing.h; sourceTree = "<group>"; };
-		78923BD311008815009E6EA6 /* Texturing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texturing.m; sourceTree = "<group>"; };
-		78923C06110088A1009E6EA6 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		78C90BAE10DDD6C0008BBBF0 /* MyController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MyController.rb; sourceTree = "<group>"; };
-		78C90BB010DDD6E0008BBBF0 /* MyOpenGLView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MyOpenGLView.rb; sourceTree = "<group>"; };
-		78C90BB210DDD6F6008BBBF0 /* Scene.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Scene.rb; sourceTree = "<group>"; };
-		78D9C16210F1FDAD000E3F25 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		780C5E761104583600C1A40D /* MyOpenGLView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MyOpenGLView.rb; sourceTree = "<group>"; };
+		780C5EC61104AAC000C1A40D /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		780C5EC81104AACA00C1A40D /* Flowers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Flowers.jpg; sourceTree = "<group>"; };
+		780C5EE8110584B800C1A40D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		780C5F2B11058D9500C1A40D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* MacRuby-OpenGL-Fullscreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacRuby-OpenGL-Fullscreen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* MacRuby-CoreImageGLTextureFBO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacRuby-CoreImageGLTextureFBO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +96,8 @@
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				4DE3BE140D8651D900ECA448 /* MacRuby.framework in Frameworks */,
-				783601AF10DDD80300099766 /* OpenGL.framework in Frameworks */,
-				78D9C16310F1FDAD000E3F25 /* GLUT.framework in Frameworks */,
+				780C5EE9110584B800C1A40D /* OpenGL.framework in Frameworks */,
+				780C5F2C11058D9500C1A40D /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,11 +107,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				78923BCB10FF3BD7009E6EA6 /* NSBitmapImageRep bundle */,
-				78C90BB210DDD6F6008BBBF0 /* Scene.rb */,
-				78C90BB010DDD6E0008BBBF0 /* MyOpenGLView.rb */,
-				787934D710F4CA79006FA92A /* Fullscreen.rb */,
-				78C90BAE10DDD6C0008BBBF0 /* MyController.rb */,
+				780C5EE31105840900C1A40D /* MyOpenGLView bundle */,
+				780C5E761104583600C1A40D /* MyOpenGLView.rb */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -127,8 +118,8 @@
 			children = (
 				4DE3BE130D8651D900ECA448 /* MacRuby.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
-				783601AE10DDD80300099766 /* OpenGL.framework */,
-				78D9C16210F1FDAD000E3F25 /* GLUT.framework */,
+				780C5EE8110584B800C1A40D /* OpenGL.framework */,
+				780C5F2B11058D9500C1A40D /* QuartzCore.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -155,12 +146,12 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* MacRuby-OpenGL-Fullscreen.app */,
+				8D1107320486CEB800E47090 /* MacRuby-CoreImageGLTextureFBO.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29B97314FDCFA39411CA2CEA /* MacRuby-OpenGL-Fullscreen */ = {
+		29B97314FDCFA39411CA2CEA /* MacRuby-CoreImageGLTextureFBO */ = {
 			isa = PBXGroup;
 			children = (
 				172754AE1075979200D0347B /* Tests */,
@@ -170,7 +161,7 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
-			name = "MacRuby-OpenGL-Fullscreen";
+			name = "MacRuby-CoreImageGLTextureFBO";
 			sourceTree = "<group>";
 		};
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
@@ -185,6 +176,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				780C5EC81104AACA00C1A40D /* Flowers.jpg */,
+				780C5EC61104AAC000C1A40D /* icon.icns */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
@@ -201,22 +194,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		78923BCB10FF3BD7009E6EA6 /* NSBitmapImageRep bundle */ = {
+		780C5EE31105840900C1A40D /* MyOpenGLView bundle */ = {
 			isa = PBXGroup;
 			children = (
-				78923BD211008815009E6EA6 /* Texturing.h */,
-				78923BD311008815009E6EA6 /* Texturing.m */,
-				78923C06110088A1009E6EA6 /* Makefile */,
 			);
-			name = "NSBitmapImageRep bundle";
+			name = "MyOpenGLView bundle";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D1107260486CEB800E47090 /* MacRuby-OpenGL-Fullscreen */ = {
+		8D1107260486CEB800E47090 /* MacRuby-CoreImageGLTextureFBO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MacRuby-OpenGL-Fullscreen" */;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MacRuby-CoreImageGLTextureFBO" */;
 			buildPhases = (
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
@@ -227,10 +217,10 @@
 			);
 			dependencies = (
 			);
-			name = "MacRuby-OpenGL-Fullscreen";
+			name = "MacRuby-CoreImageGLTextureFBO";
 			productInstallPath = "$(HOME)/Applications";
-			productName = "MacRuby-OpenGL-Fullscreen";
-			productReference = 8D1107320486CEB800E47090 /* MacRuby-OpenGL-Fullscreen.app */;
+			productName = "MacRuby-CoreImageGLTextureFBO";
+			productReference = 8D1107320486CEB800E47090 /* MacRuby-CoreImageGLTextureFBO.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -238,14 +228,14 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MacRuby-OpenGL-Fullscreen" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MacRuby-CoreImageGLTextureFBO" */;
 			compatibilityVersion = "Xcode 3.0";
 			hasScannedForEncodings = 1;
-			mainGroup = 29B97314FDCFA39411CA2CEA /* MacRuby-OpenGL-Fullscreen */;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* MacRuby-CoreImageGLTextureFBO */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D1107260486CEB800E47090 /* MacRuby-OpenGL-Fullscreen */,
+				8D1107260486CEB800E47090 /* MacRuby-CoreImageGLTextureFBO */,
 				172754BD107597F200D0347B /* Unit Tests */,
 				4D1A51A110A4FF5D0046A98A /* Compile */,
 				4D1A51A510A4FF640046A98A /* Embed */,
@@ -261,10 +251,9 @@
 				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */,
-				78C90BAF10DDD6C0008BBBF0 /* MyController.rb in Resources */,
-				78C90BB110DDD6E0008BBBF0 /* MyOpenGLView.rb in Resources */,
-				78C90BB310DDD6F6008BBBF0 /* Scene.rb in Resources */,
-				787934D810F4CA79006FA92A /* Fullscreen.rb in Resources */,
+				780C5E771104583600C1A40D /* MyOpenGLView.rb in Resources */,
+				780C5EC71104AAC000C1A40D /* icon.icns in Resources */,
+				780C5EC91104AACA00C1A40D /* Flowers.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +307,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
-				78923C07110088A1009E6EA6 /* Makefile in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +410,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				PRODUCT_NAME = "MacRuby-OpenGL-Fullscreen";
+				PRODUCT_NAME = "MacRuby-CoreImageGLTextureFBO";
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
@@ -440,7 +428,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				PRODUCT_NAME = "MacRuby-OpenGL-Fullscreen";
+				PRODUCT_NAME = "MacRuby-CoreImageGLTextureFBO";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -499,7 +487,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MacRuby-OpenGL-Fullscreen" */ = {
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MacRuby-CoreImageGLTextureFBO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4B08A954540054247B /* Debug */,
@@ -508,7 +496,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MacRuby-OpenGL-Fullscreen" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MacRuby-CoreImageGLTextureFBO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

@@ -1,0 +1,315 @@
+TMacRuby-CoreImageGLTextureFBO
+v7
+r0
+t285579915.534227
+cCheck dependencies
+cProcessInfoPlistFile "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Info.plist" Info.plist
+cStripNIB "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/English.lproj/MainMenu.nib"
+cCopyStringsFile "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCpResource build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/rb_main.rb rb_main.rb
+cCpResource build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/MyOpenGLView.rb MyOpenGLView.rb
+cCpResource build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/icon.icns icon.icns
+cCpResource build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/Flowers.jpg Flowers.jpg
+cCompileC build/MacRuby-CoreImageGLTextureFBO.build/Debug/MacRuby-CoreImageGLTextureFBO.build/Objects-normal/x86_64/main.o "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/MacOS/MacRuby-CoreImageGLTextureFBO" normal x86_64
+cTouch "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app"
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004A49A9E400000000000000EE
+t1246341604
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/MacRuby.framework/Headers/MacRuby.h
+c000000004AD6577B000000000000005F
+t1255561083
+s95
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/MacRuby.framework/Headers/MacRuby.h
+c000000004AD6577B000000000000005F
+t1255561083
+s95
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGL.h
+c000000004A73D92A0000000000001658
+t1249106218
+s5720
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004A73D92A0000000000025B59
+t1249106218
+s154457
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004A769D9C000000000000DA18
+t1249287580
+s55832
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework/Quartz
+c000000004A769D9D00000000000036E0
+t1249287581
+s14048
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004A67CCF600000000000000BF
+t1248316662
+s191
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004A769D9D00000000000A2AAC
+t1249287581
+s666284
+
+N/Library/Frameworks/MacRuby.framework/MacRuby
+c000000004B02210C0000000001C75A18
+t1258430732
+s29841944
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/English.lproj/InfoPlist.strings
+c000000004B54202D00000000000000B2
+t1263804461
+s178
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/English.lproj/MainMenu.nib
+c000000004B546FCC0000000000000088
+t1263824844
+s136
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/Flowers.jpg
+c0000000046A62AEB00000000000342B5
+t1185295083
+s213685
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/MyOpenGLView
+c000000004B5420B60000000000000000
+t1263804598
+s0
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/MyOpenGLView.h
+c000000004B5555A20000000000000167
+t1263883682
+s359
+i<OpenGL/gl.h>
+i<OpenGL/OpenGL.h>
+i<Cocoa/Cocoa.h>
+i<QuartzCore/QuartzCore.h>
+i<CIContext.h>
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/MyOpenGLView.m
+c000000004B5550670000000000000349
+t1263882343
+s841
+i"MyOpenGLView.h"
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/MyOpenGLView.rb
+c000000004B55630900000000000031F5
+t1263887113
+s12789
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app
+t1263887115
+s102
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Info.plist
+t1263824925
+s835
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/MacOS/MacRuby-CoreImageGLTextureFBO
+t1263883912
+s10256
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/PkgInfo
+t1263824925
+s8
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1263824925
+s178
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/English.lproj/MainMenu.nib
+t1263824925
+s13302
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/Flowers.jpg
+t1263858198
+s213685
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/MyOpenGLView
+t2
+s0
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/MyOpenGLView.rb
+t1263887115
+s12789
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/icon.icns
+t1263858198
+s48752
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/rb_main.rb
+t1263824925
+s547
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/MacRuby-CoreImageGLTextureFBO.build/Debug/MacRuby-CoreImageGLTextureFBO.build/Objects-normal/x86_64/MacRuby-CoreImageGLTextureFBO.LinkFileList
+c000000004B55568800000000000000EA
+t1263883912
+s234
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/MacRuby-CoreImageGLTextureFBO.build/Debug/MacRuby-CoreImageGLTextureFBO.build/Objects-normal/x86_64/MyOpenGLView.o
+t2
+s0
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/MacRuby-CoreImageGLTextureFBO.build/Debug/MacRuby-CoreImageGLTextureFBO.build/Objects-normal/x86_64/main.o
+t1263824934
+s11848
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/icon.icns
+c0000000046B0CFBF000000000000BE70
+t1185992639
+s48752
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/main.m
+c000000004B54202D0000000000000106
+t1263804461
+s262
+i<MacRuby/MacRuby.h>
+
+N/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/rb_main.rb
+c000000004B54202D0000000000000223
+t1263804461
+s547
+
+NInfo.plist
+c000000004B54202D000000000000035A
+t1263804461
+s858
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies285579915#285579915#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/MacRuby-CoreImageGLTextureFBO.build/Debug/MacRuby-CoreImageGLTextureFBO.build/Objects-normal/x86_64/MyOpenGLView.o "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/MyOpenGLView.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s285576611.927119
+e285576613.572313
+r0
+xCompileC
+xbuild/MacRuby-CoreImageGLTextureFBO.build/Debug/MacRuby-CoreImageGLTextureFBO.build/Objects-normal/x86_64/MyOpenGLView.o
+x/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/MyOpenGLView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/MyOpenGLView.m:9:
+o/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/MyOpenGLView.h:13:22: error: CIContext.h: No such file or directory
+lSLF07#2@143"Compile /Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/MyOpenGLView.m285576611#285576613#0(350"In file included from /Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/MyOpenGLView.m:9:/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/MyOpenGLView.h:13:22: error: CIContext.h: No such file or directory1(4@38"CIContext.h: No such file or directory285576613#161#189#2(7@157"In file included from /Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/MyOpenGLView.m285576613#18446744073709551615#0#0(6@135"/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/MyOpenGLView.m285575143#9#0#9#0#0"0(13@177"CIContext.h: No such file or directory in /Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/MyOpenGLView.h285576613#18446744073709551615#0#0(6@135"/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/MyOpenGLView.h285576482#13#0#13#0#0"0(6@135"/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/MyOpenGLView.h285576482#13#0#13#0#28"*: No such file or directory0(0#0#135"/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/MyOpenGLView.m4300885448#1943"    cd "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/MacRuby-CoreImageGLTextureFBO.build/Debug/MacRuby-CoreImageGLTextureFBO.build/MacRuby-CoreImageGLTextureFBO.hmap" "-F/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug" "-F/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug" "-I/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/include" "-I/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/MacRuby-CoreImageGLTextureFBO.build/Debug/MacRuby-CoreImageGLTextureFBO.build/DerivedSources/x86_64" "-I/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/MacRuby-CoreImageGLTextureFBO.build/Debug/MacRuby-CoreImageGLTextureFBO.build/DerivedSources" -c "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/MyOpenGLView.m" -o "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/MacRuby-CoreImageGLTextureFBO.build/Debug/MacRuby-CoreImageGLTextureFBO.build/Objects-normal/x86_64/MyOpenGLView.o"1#
+
+CCompileC build/MacRuby-CoreImageGLTextureFBO.build/Debug/MacRuby-CoreImageGLTextureFBO.build/Objects-normal/x86_64/main.o "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s285517725.907361
+e285517734.412108
+r1
+xCompileC
+xbuild/MacRuby-CoreImageGLTextureFBO.build/Debug/MacRuby-CoreImageGLTextureFBO.build/Objects-normal/x86_64/main.o
+x/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@135"Compile /Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/main.m285517725#285517734#0(0"0(0#0#127"/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/main.m4300885448#1927"    cd "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/MacRuby-CoreImageGLTextureFBO.build/Debug/MacRuby-CoreImageGLTextureFBO.build/MacRuby-CoreImageGLTextureFBO.hmap" "-F/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug" "-F/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug" "-I/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/include" "-I/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/MacRuby-CoreImageGLTextureFBO.build/Debug/MacRuby-CoreImageGLTextureFBO.build/DerivedSources/x86_64" "-I/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/MacRuby-CoreImageGLTextureFBO.build/Debug/MacRuby-CoreImageGLTextureFBO.build/DerivedSources" -c "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/main.m" -o "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/MacRuby-CoreImageGLTextureFBO.build/Debug/MacRuby-CoreImageGLTextureFBO.build/Objects-normal/x86_64/main.o"0#
+
+CCopyStringsFile "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s285517725.466356
+e285517725.907209
+r1
+xCopyStringsFile
+x/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings285517725#285517725#0(0"0(0#0#152"/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/English.lproj/InfoPlist.strings4300885448#556"    cd "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/English.lproj"0#
+
+CCpResource build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/Flowers.jpg Flowers.jpg
+s285550998.530623
+e285550998.675696
+r1
+xCpResource
+xbuild/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/Flowers.jpg
+xFlowers.jpg
+lSLF07#2@16"Copy Flowers.jpg285550998#285550998#0(0"0(0#0#132"/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/Flowers.jpg4300885448#601"    cd "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/Flowers.jpg" "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources"0#
+
+CCpResource build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/MyOpenGLView MyOpenGLView
+r0
+
+CCpResource build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/MyOpenGLView.rb MyOpenGLView.rb
+s285579915.494684
+e285579915.527375
+r1
+xCpResource
+xbuild/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/MyOpenGLView.rb
+xMyOpenGLView.rb
+lSLF07#2@20"Copy MyOpenGLView.rb285579915#285579915#0(0"0(0#0#136"/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/MyOpenGLView.rb4300885448#605"    cd "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/MyOpenGLView.rb" "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources"0#
+
+CCpResource build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/icon.icns icon.icns
+s285550998.529447
+e285550998.671160
+r1
+xCpResource
+xbuild/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/icon.icns
+xicon.icns
+lSLF07#2@14"Copy icon.icns285550998#285550998#0(0"0(0#0#130"/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/icon.icns4300885448#599"    cd "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/icon.icns" "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources"0#
+
+CCpResource build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/rb_main.rb rb_main.rb
+s285517725.734469
+e285517725.837523
+r1
+xCpResource
+xbuild/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/rb_main.rb
+xrb_main.rb
+lSLF07#2@15"Copy rb_main.rb285517725#285517725#0(0"0(0#0#131"/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/rb_main.rb4300885448#600"    cd "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/rb_main.rb" "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources"0#
+
+CLd "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/MacOS/MacRuby-CoreImageGLTextureFBO" normal x86_64
+s285576712.205792
+e285576712.319904
+r1
+xLd
+x/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/MacOS/MacRuby-CoreImageGLTextureFBO
+xnormal
+xx86_64
+lSLF07#2@216"Link /Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/MacOS/MacRuby-CoreImageGLTextureFBO285576712#285576712#0(0"0(0#0#0"4300885448#1268"    cd "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug" "-F/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug" "-F/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug" -filelist "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/MacRuby-CoreImageGLTextureFBO.build/Debug/MacRuby-CoreImageGLTextureFBO.build/Objects-normal/x86_64/MacRuby-CoreImageGLTextureFBO.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -framework MacRuby -framework OpenGL -framework QuartzCore -o "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/MacOS/MacRuby-CoreImageGLTextureFBO"0#
+
+CProcessInfoPlistFile "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Info.plist" Info.plist
+s285517725.389700
+e285517725.449325
+r1
+xProcessInfoPlistFile
+x/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist285517725#285517725#0(0"0(0#0#131"/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/Info.plist4300885448#598"    cd "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Info.plist"0#
+
+CStripNIB "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/English.lproj/MainMenu.nib"
+s285517725.449465
+e285517725.734341
+r1
+xStripNIB
+x/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/English.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB English.lproj/MainMenu.nib285517725#285517725#0(0"0(0#0#147"/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/English.lproj/MainMenu.nib4300885448#569"    cd "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO"    /Developer/usr/bin/ibtool --strip "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app/Contents/Resources/English.lproj/MainMenu.nib" --output-format human-readable-text "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/English.lproj/MainMenu.nib"0#
+
+CTouch "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app"
+s285579915.528306
+e285579915.534155
+r1
+xTouch
+x/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app
+lSLF07#2@172"Touch /Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app285579915#285579915#0(0"0(0#0#0"4300885448#321"    cd "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO"    /usr/bin/touch -c "/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-CoreImageGLTextureFBO/build/Debug/MacRuby-CoreImageGLTextureFBO.app"0#
+

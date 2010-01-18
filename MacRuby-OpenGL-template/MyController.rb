@@ -8,7 +8,7 @@ class MyController
 
 	attr_accessor	:opengl_view,
 					:fullscreen,
-					:scene, :animating
+					:scene
 
 
 
@@ -18,9 +18,8 @@ class MyController
 		@scene				= Scene.new
 
 
-		# Setting and starting the animation : 
-		@animating			= false
-		start_animation
+		# Starting the animation : 
+		start_animation_timer
 
 	end
 
@@ -37,14 +36,13 @@ class MyController
 			first_character = characters[0]
 
 			case
+			# Pressing space enters fullscreen mode :
+			when first_character.bytes.to_a[0] == 32
+				@fullscreen.go_fullscreen
+
+			# Pressing escape exits fullscreen mode :
 			when first_character.bytes.to_a[0] == 27
 				@fullscreen.stay_in_fullscreen_mode	= false
-
-			when first_character.bytes.to_a[0] == 32
-				toggle_animation
-
-			when first_character == 'w' || first_character == 'W'
-				@scene.wireframe	= !@scene.wireframe
 
 			end
 
@@ -57,21 +55,10 @@ class MyController
 
 
 
-	def go_fullscreen(sender)
-
-		@fullscreen.go_fullscreen
-
-	end
-
-
-
-
-
 	def mouseDown(the_event)
 
 		# No animation while dragging :
-		was_animating	= @animating
-		stop_animation if was_animating
+		stop_animation_timer
 
 
 		# Dragging :
@@ -90,7 +77,6 @@ class MyController
             when NSLeftMouseDragged
                 dx = window_point.x - last_window_point.x
                 dy = window_point.y - last_window_point.y
-                @scene.sun_angle	+= -1.0 * dx
                 @scene.roll_angle	+= -0.5 * dy
                 last_window_point	 = window_point
 				
@@ -110,11 +96,9 @@ class MyController
 		end
 
 
-		# Resume animating if was animating beofre dragging :
-		if was_animating then
-			start_animation
-			@fullscreen.before	= CFAbsoluteTimeGetCurrent()
-		end
+		# Resume animating :
+		start_animation_timer
+		@fullscreen.before	= CFAbsoluteTimeGetCurrent()
 
 	end
 
@@ -158,56 +142,6 @@ class MyController
 		@scene.advance_time_by(1.0/60.0)
 
 		@opengl_view.setNeedsDisplay true
-
-	end
-
-
-
-
-
-	def start_animation
-
-		unless @animating then
-
-			@animating	= true
-
-			unless @fullscreen.stay_in_fullscreen_mode then
-				start_animation_timer
-			end
-
-		end
-
-	end
-
-
-
-
-
-	def stop_animation
-
-		if @animating then
-
-			@animating	= false
-
-			stop_animation_timer if @animation_timer != nil
-
-		end
-
-	end
-
-
-
-
-
-	def toggle_animation
-
-		if @animating == true then
-			stop_animation
-
-		else
-			start_animation
-
-		end
 
 	end
 
