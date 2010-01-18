@@ -1,21 +1,28 @@
+require 'Texturing'
+
+
+
 class Scene
 
-	attr_accessor :roll_angle, :sun_angle
+	attr_accessor	:roll_angle, :sun_angle,
+					:wireframe
 
 
 
 	def initialize
 
 		# Create the texture :
-		#texture_image		= NSImage.imageNamed("Earth.jpg")
+		@texture_bitmap_image_rep	= NSBitmapImageRep.imageRepWithContentsOfFile("Earth_2.tif")
 
-		#if texture_image then
+		if @texture_bitmap_image_rep != nil then
 
-		#	texture_image_rep	= texture_image.bestRepresentationForDevice(nil)
+			@texture_name		= Pointer.new_with_type('i')
+			@texture_name[0]	= 0
 
-			# Soon
+		else
+			puts "Couldn't find file 'Earth_2.tif'"
 
-		#end
+		end
 
 
 		# Initializing other data :
@@ -54,7 +61,7 @@ class Scene
 		@material_diffuse[2]	= 1.0
 		@material_diffuse[3]	= 1.0
 
-		@wireframe			= true #false
+		@wireframe				= false
 
 	end
 
@@ -84,20 +91,20 @@ class Scene
 		# Set up rendering state.
 		glEnable(GL_DEPTH_TEST)
 		glEnable(GL_CULL_FACE)
-		#glEnable(GL_LIGHTING)
-		#glEnable(GL_LIGHT0)
+		glEnable(GL_LIGHTING)
+		glEnable(GL_LIGHT0)
 
 		# Upload the texture.  Since we are sharing OpenGL object between our FullScreen and non-FullScreen contexts, we only need to do this once.
-		#if texture_name[0] == 0 then
-		#	glGenTextures(1, texture_name)
-		#	texture_bitmap_image_rep.upload_as_opengl_texture(texture_name[0])
-		#end
+		if @texture_name[0] == 0 then
+			glGenTextures(1, @texture_name)
+			@texture_bitmap_image_rep.uploadAsOpenGLTexture(@texture_name[0])
+		end
 
 
 		# Set up texturing parameters :
-		#glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_MODULATE)
-		#glEnable(GL_TEXTURE_2D)
-		#glBindTexture(GL_TEXTURE_2D, texture_name[0])
+		glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_MODULATE)
+		glEnable(GL_TEXTURE_2D)
+		glBindTexture(GL_TEXTURE_2D, @texture_name[0])
 
 
 		# Clear the framebuffer :
@@ -110,9 +117,9 @@ class Scene
 
 		# Set up our single directional light (the Sun!) :
 		
-		#@light_direction[0] = Math::cos(degree_to_radiant(@sun_angle))
-		#@light_direction[2] = Math::sin(degree_to_radiant(@sun_angle))
-		#glLightfv(GL_LIGHT0, GL_POSITION, @light_direction)
+		@light_direction[0] = Math::cos(degree_to_radiant(@sun_angle))
+		@light_direction[2] = Math::sin(degree_to_radiant(@sun_angle))
+		glLightfv(GL_LIGHT0, GL_POSITION, @light_direction)
 	
 
 		# Back the camera off a bit :
@@ -120,16 +127,14 @@ class Scene
 	
 
 		# Draw the Earth !
-		#quadric	= Pointer.new_with_type('^GLUquadric')
 		quadric = gluNewQuadric
 
 
-		glColor3f(1.0, 0.85, 0.35)
-		gluQuadricDrawStyle(quadric, GLU_LINE) #if @wireframe
+		gluQuadricDrawStyle(quadric, GLU_LINE) if @wireframe
 
-		#gluQuadricTexture(quadric, GL_TRUE)
-		#glMaterialfv(GL_FRONT, GL_AMBIENT, @material_ambient)
-		#glMaterialfv(GL_FRONT, GL_DIFFUSE, @material_diffuse)
+		gluQuadricTexture(quadric, GL_TRUE)
+		glMaterialfv(GL_FRONT, GL_AMBIENT, @material_ambient)
+		glMaterialfv(GL_FRONT, GL_DIFFUSE, @material_diffuse)
 
 		glRotatef(@roll_angle, 1.0, 0.0, 0.0)
 		glRotatef(-23.45, 0.0, 0.0, 1.0)		# Earth's axial tilt is 23.45 degrees from the plane of the ecliptic.
