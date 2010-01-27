@@ -332,10 +332,10 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>784E1BFD11108D2F0056C405</string>
+										<string>78DCD88B1108708F0081A9DC</string>
 										<key>history</key>
 										<array>
-											<string>78DCD88B1108708F0081A9DC</string>
+											<string>78DCD88A1108708F0081A9DC</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -393,9 +393,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>784E1BFE11108D2F0056C405</string>
+				<string>78DCD88C1108708F0081A9DC</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>784E1BFF11108D2F0056C405</string>
+				<string>78DCD88D1108708F0081A9DC</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -567,7 +567,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {767, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>262 322 767 516 0 0 1440 878 </string>
+								<string>-1471 601 767 516 -1920 0 1920 1200 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -591,7 +591,7 @@
 								<key>Frame</key>
 								<string>{{0, 5}, {767, 470}}</string>
 								<key>RubberWindowFrame</key>
-								<string>262 322 767 516 0 0 1440 878 </string>
+								<string>-1471 601 767 516 -1920 0 1920 1200 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXBuildResultsModule</string>
@@ -614,7 +614,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>780C5E71110457BD00C1A40D</string>
-				<string>784E1C0011108D2F0056C405</string>
+				<string>78DCD88E1108708F0081A9DC</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -623,7 +623,7 @@
 			<key>WindowContentMinSize</key>
 			<string>486 300</string>
 			<key>WindowString</key>
-			<string>262 322 767 516 0 0 1440 878 </string>
+			<string>-1471 601 767 516 -1920 0 1920 1200 </string>
 			<key>WindowToolGUID</key>
 			<string>780C5E71110457BD00C1A40D</string>
 			<key>WindowToolIsVisible</key>
