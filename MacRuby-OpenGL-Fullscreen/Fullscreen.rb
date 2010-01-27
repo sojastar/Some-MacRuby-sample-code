@@ -159,11 +159,9 @@ class Fullscreen
 
 				# Update our animation :
 				now			= CFAbsoluteTimeGetCurrent()
-				#@controller.scene.advance_time_by(now - @before) if @controller.animating
-				if @controller.animating == true then
-					@controller.scene.advance_time_by(now - @before)
-					#puts "in there : " + @controller.animating.to_s
-				end
+
+				@controller.scene.advance_time_by(now - @before) if @controller.animating
+
 				@before = now
 
 

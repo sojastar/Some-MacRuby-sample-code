@@ -212,6 +212,7 @@
 				<string>action</string>
 				<string>NSToolbarFlexibleSpaceItem</string>
 				<string>debugger-enable-breakpoints</string>
+				<string>build</string>
 				<string>build-and-go</string>
 				<string>com.apple.ide.PBXToolbarStopButton</string>
 				<string>get-info</string>
@@ -229,6 +230,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -276,8 +279,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
-									<integer>2</integer>
+									<integer>9</integer>
+									<integer>7</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -312,14 +315,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>BoingView.rb</string>
+								<string>main.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,20 +328,20 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>BoingView.rb</string>
+										<string>main.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>78A6268C10F1D7E70013F9FA</string>
+										<string>780C60141106A69D00C1A40D</string>
 										<key>history</key>
 										<array>
 											<string>78A6FC6C10D7796300B12773</string>
-											<string>78A6FC8610D7819500B12773</string>
 											<string>78A659BA10D893BA00820F18</string>
-											<string>78C90A9810DC9742008BBBF0</string>
 											<string>78EA801B10DDFE1D00C437FE</string>
-											<string>78EA806510DDFF5200C437FE</string>
-											<string>78D4E11A10E3757E00A9BCE1</string>
+											<string>780C600B1106A5B100C1A40D</string>
+											<string>780C60111106A69D00C1A40D</string>
+											<string>780C60121106A69D00C1A40D</string>
+											<string>780C60131106A69D00C1A40D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -398,9 +399,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>78A6268D10F1D7E70013F9FA</string>
+				<string>780C600E1106A5B100C1A40D</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>78A6268E10F1D7E70013F9FA</string>
+				<string>780C600F1106A5B100C1A40D</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -619,7 +620,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>78A6F90410D5E7EA00B12773</string>
-				<string>78A6268F10F1D7E70013F9FA</string>
+				<string>780C60101106A5B100C1A40D</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
