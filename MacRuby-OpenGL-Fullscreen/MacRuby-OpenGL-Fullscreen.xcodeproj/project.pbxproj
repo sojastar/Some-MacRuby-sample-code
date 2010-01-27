@@ -47,10 +47,10 @@
 		4DE3BE140D8651D900ECA448 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE3BE130D8651D900ECA448 /* MacRuby.framework */; };
 		783601AF10DDD80300099766 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783601AE10DDD80300099766 /* OpenGL.framework */; };
 		787934D810F4CA79006FA92A /* Fullscreen.rb in Resources */ = {isa = PBXBuildFile; fileRef = 787934D710F4CA79006FA92A /* Fullscreen.rb */; };
-		78923C07110088A1009E6EA6 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 78923C06110088A1009E6EA6 /* Makefile */; };
 		78C90BAF10DDD6C0008BBBF0 /* MyController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 78C90BAE10DDD6C0008BBBF0 /* MyController.rb */; };
 		78C90BB110DDD6E0008BBBF0 /* MyOpenGLView.rb in Resources */ = {isa = PBXBuildFile; fileRef = 78C90BB010DDD6E0008BBBF0 /* MyOpenGLView.rb */; };
 		78C90BB310DDD6F6008BBBF0 /* Scene.rb in Resources */ = {isa = PBXBuildFile; fileRef = 78C90BB210DDD6F6008BBBF0 /* Scene.rb */; };
+		78C90BB510DDD706008BBBF0 /* Texturing.rb in Resources */ = {isa = PBXBuildFile; fileRef = 78C90BB410DDD706008BBBF0 /* Texturing.rb */; };
 		78D9C16310F1FDAD000E3F25 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D9C16210F1FDAD000E3F25 /* GLUT.framework */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -84,12 +84,10 @@
 		4DE3BE130D8651D900ECA448 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = /Library/Frameworks/MacRuby.framework; sourceTree = "<absolute>"; };
 		783601AE10DDD80300099766 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		787934D710F4CA79006FA92A /* Fullscreen.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Fullscreen.rb; sourceTree = "<group>"; };
-		78923BD211008815009E6EA6 /* Texturing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texturing.h; sourceTree = "<group>"; };
-		78923BD311008815009E6EA6 /* Texturing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texturing.m; sourceTree = "<group>"; };
-		78923C06110088A1009E6EA6 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		78C90BAE10DDD6C0008BBBF0 /* MyController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MyController.rb; sourceTree = "<group>"; };
 		78C90BB010DDD6E0008BBBF0 /* MyOpenGLView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MyOpenGLView.rb; sourceTree = "<group>"; };
 		78C90BB210DDD6F6008BBBF0 /* Scene.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Scene.rb; sourceTree = "<group>"; };
+		78C90BB410DDD706008BBBF0 /* Texturing.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Texturing.rb; sourceTree = "<group>"; };
 		78D9C16210F1FDAD000E3F25 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* MacRuby-OpenGL-Fullscreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacRuby-OpenGL-Fullscreen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,7 +111,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				78923BCB10FF3BD7009E6EA6 /* NSBitmapImageRep bundle */,
+				78C90BB410DDD706008BBBF0 /* Texturing.rb */,
 				78C90BB210DDD6F6008BBBF0 /* Scene.rb */,
 				78C90BB010DDD6E0008BBBF0 /* MyOpenGLView.rb */,
 				787934D710F4CA79006FA92A /* Fullscreen.rb */,
@@ -201,16 +199,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		78923BCB10FF3BD7009E6EA6 /* NSBitmapImageRep bundle */ = {
-			isa = PBXGroup;
-			children = (
-				78923BD211008815009E6EA6 /* Texturing.h */,
-				78923BD311008815009E6EA6 /* Texturing.m */,
-				78923C06110088A1009E6EA6 /* Makefile */,
-			);
-			name = "NSBitmapImageRep bundle";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -264,6 +252,7 @@
 				78C90BAF10DDD6C0008BBBF0 /* MyController.rb in Resources */,
 				78C90BB110DDD6E0008BBBF0 /* MyOpenGLView.rb in Resources */,
 				78C90BB310DDD6F6008BBBF0 /* Scene.rb in Resources */,
+				78C90BB510DDD706008BBBF0 /* Texturing.rb in Resources */,
 				787934D810F4CA79006FA92A /* Fullscreen.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,7 +307,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
-				78923C07110088A1009E6EA6 /* Makefile in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

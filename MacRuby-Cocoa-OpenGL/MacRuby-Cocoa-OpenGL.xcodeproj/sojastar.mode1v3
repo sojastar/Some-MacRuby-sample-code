@@ -281,8 +281,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>11</integer>
-									<integer>3</integer>
+									<integer>16</integer>
 									<integer>2</integer>
 									<integer>0</integer>
 								</array>
@@ -307,7 +306,7 @@
 							<real>189</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>-1695 220 1440 819 -1920 0 1920 1200 </string>
+						<string>0 59 1440 819 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -323,7 +322,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>GLString.rb</string>
+								<string>BasicOpenGLView.rb</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -331,11 +330,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>GLString.rb</string>
+										<string>BasicOpenGLView.rb</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>78923C7311009F05009E6EA6</string>
+										<string>78DB87D710FAF84C001FDBD1</string>
 										<key>history</key>
 										<array>
 											<string>78C5A8E110D29533003F8EEA</string>
@@ -347,11 +346,11 @@
 											<string>78A658ED10D7A74F00820F18</string>
 											<string>7875B46610DBE567005FD063</string>
 											<string>78A6249810F1B3600013F9FA</string>
+											<string>78D9C1A310F2014F000E3F25</string>
+											<string>78DB87A910FAE60D001FDBD1</string>
 											<string>78DB87AA10FAE60D001FDBD1</string>
-											<string>78923C1011008AA2009E6EA6</string>
-											<string>78923C2611008E74009E6EA6</string>
-											<string>78923C7111009F05009E6EA6</string>
-											<string>78923C7211009F05009E6EA6</string>
+											<string>78DB87D510FAF84C001FDBD1</string>
+											<string>78DB87D610FAF84C001FDBD1</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -365,7 +364,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1229, 773}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-1695 220 1440 819 -1920 0 1920 1200 </string>
+								<string>0 59 1440 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -385,7 +384,7 @@
 								<key>Frame</key>
 								<string>{{0, 778}, {1229, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-1695 220 1440 819 -1920 0 1920 1200 </string>
+								<string>0 59 1440 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -409,9 +408,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>78923C7411009F05009E6EA6</string>
+				<string>78DB87D810FAF84C001FDBD1</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>78923C7511009F05009E6EA6</string>
+				<string>78DB87D910FAF84C001FDBD1</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -553,7 +552,7 @@
 		<string>/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-Cocoa-OpenGL/MacRuby-Cocoa-OpenGL.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>-1695 220 1440 819 -1920 0 1920 1200 </string>
+	<string>0 59 1440 819 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -630,7 +629,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>783BCEC210CE0112000F5C0F</string>
-				<string>78923C7611009F05009E6EA6</string>
+				<string>78DB87DA10FAF84C001FDBD1</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
