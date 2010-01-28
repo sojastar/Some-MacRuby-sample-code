@@ -212,6 +212,7 @@
 				<string>action</string>
 				<string>NSToolbarFlexibleSpaceItem</string>
 				<string>debugger-enable-breakpoints</string>
+				<string>build</string>
 				<string>build-and-go</string>
 				<string>com.apple.ide.PBXToolbarStopButton</string>
 				<string>get-info</string>
@@ -331,7 +332,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>78A6268C10F1D7E70013F9FA</string>
+										<string>780E85BE1111553E00AA6ED5</string>
 										<key>history</key>
 										<array>
 											<string>78A6FC6C10D7796300B12773</string>
@@ -340,7 +341,7 @@
 											<string>78C90A9810DC9742008BBBF0</string>
 											<string>78EA801B10DDFE1D00C437FE</string>
 											<string>78EA806510DDFF5200C437FE</string>
-											<string>78D4E11A10E3757E00A9BCE1</string>
+											<string>78A6268C10F1D7E70013F9FA</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -398,9 +399,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>78A6268D10F1D7E70013F9FA</string>
+				<string>780E85B01111550A00AA6ED5</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>78A6268E10F1D7E70013F9FA</string>
+				<string>780E85B11111550A00AA6ED5</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -538,7 +539,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>780E85BB1111550A00AA6ED5</string>
+		<string>780E85BC1111550A00AA6ED5</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>78A6F90410D5E7EA00B12773</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-BoingX/MacRuby-BoingX.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -619,7 +624,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>78A6F90410D5E7EA00B12773</string>
-				<string>78A6268F10F1D7E70013F9FA</string>
+				<string>780E85B21111550A00AA6ED5</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -715,10 +720,10 @@
 									<key>Frame</key>
 									<string>{{382, 0}, {460, 196}}</string>
 									<key>RubberWindowFrame</key>
-									<string>-894 411 842 409 -1920 0 1920 1200 </string>
+									<string>569 255 842 409 0 0 1440 878 </string>
 								</dict>
 								<key>RubberWindowFrame</key>
-								<string>-894 411 842 409 -1920 0 1920 1200 </string>
+								<string>569 255 842 409 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugSessionModule</string>
@@ -741,18 +746,18 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>78D4E11010E363A700A9BCE1</string>
+				<string>780E85B31111550A00AA6ED5</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>78D4E11110E363A700A9BCE1</string>
-				<string>78D4E11210E363A700A9BCE1</string>
-				<string>78D4E11310E363A700A9BCE1</string>
-				<string>78D4E11410E363A700A9BCE1</string>
-				<string>78D4E11510E363A700A9BCE1</string>
+				<string>780E85B41111550A00AA6ED5</string>
+				<string>780E85B51111550A00AA6ED5</string>
+				<string>780E85B61111550A00AA6ED5</string>
+				<string>780E85B71111550A00AA6ED5</string>
+				<string>780E85B81111550A00AA6ED5</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
 			<key>WindowString</key>
-			<string>-894 411 842 409 -1920 0 1920 1200 </string>
+			<string>569 255 842 409 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
@@ -880,7 +885,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {650, 209}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-828 90 650 250 -1920 0 1920 1200 </string>
+								<string>679 78 650 250 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -903,13 +908,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>78D4E11610E363A700A9BCE1</string>
+				<string>780E85B91111550A00AA6ED5</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>-828 90 650 250 -1920 0 1920 1200 </string>
+			<string>679 78 650 250 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>

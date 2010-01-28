@@ -61,9 +61,9 @@ class Fullscreen
         end
 
 	
-		# Pause animation in the OpenGL view.  While we're in full-screen mode, we'll have to ...
+		# Stop animation in the OpenGL view.  While we're in full-screen mode, we'll have to ...
 		# ... drive the animation actively instead of using a timer callback.
-		@controller.stop_animation_timer if @controller.animating
+		@controller.stop_animation_timer
 
     
 		# From here, we have to be carefull not to lock ourselves in fullscreen mode :
@@ -101,6 +101,9 @@ class Fullscreen
 
 			@controller.scene.set_viewport_rectangle(NSMakeRect(0, 0, w, h))
 
+
+	glEnable(GL_DEPTH_TEST)
+		glEnable(GL_CULL_FACE)
 
 			# --- EVENT LOOP : ---
 
@@ -159,9 +162,9 @@ class Fullscreen
 
 				# Update our animation :
 				now			= CFAbsoluteTimeGetCurrent()
-
-				@controller.scene.advance_time_by(now - @before) if @controller.animating
-
+				
+				@controller.scene.advance_time_by(now - @before)
+				
 				@before = now
 
 
@@ -202,7 +205,7 @@ class Fullscreen
 
 
 		# Resume animation timer firings :
-		@controller.start_animation_timer if @controller.animating
+		@controller.start_animation_timer
 
 	end
 
