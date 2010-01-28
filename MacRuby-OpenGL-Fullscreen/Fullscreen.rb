@@ -1,11 +1,23 @@
 class Fullscreen
 
 	attr_accessor	:controller,
-					:stay_in_fullscreen_mode
+					:fullscreen_context,
+					:stay_in_fullscreen_mode,
+					:before
 
 
 
-	def go_full_screen
+	def awakeFromNib
+
+		@stay_in_fullscreen_mode	= false
+
+	end
+
+
+
+
+
+	def go_fullscreen
 
 		main_display_id		= CGMainDisplayID()
 
@@ -51,7 +63,7 @@ class Fullscreen
 	
 		# Pause animation in the OpenGL view.  While we're in full-screen mode, we'll have to ...
 		# ... drive the animation actively instead of using a timer callback.
-		@controller.stop_animation_timer if @controller.animation_flag
+		@controller.stop_animation_timer if @controller.animating
 
     
 		# From here, we have to be carefull not to lock ourselves in fullscreen mode :
@@ -94,12 +106,12 @@ class Fullscreen
 
 			# We are now in fullscreen mode. In this new context, we don't have an event loop like ...
 			# ... the NSOpenGLView provided, so we have to make our own :
-			full_screen_loop
+			fullscreen_loop
 
 
 			# --- LEAVING AND CLEANING UP : ---
 			# Properly leaving fullscreen mode :
-			exit_full_screen
+			exit_fullscreen
 
 		rescue
 			puts "There was a problem while in fullscreen mode !"
@@ -112,13 +124,13 @@ class Fullscreen
 
 
 
-	def full_screen_loop
+	def fullscreen_loop
 
 			# A flag for wether we have to keep looping or not :
 			@stay_in_fullscreen_mode	= true
 
 			# Used to keep track of each loop iteration's duration :
-			before						= CFAbsoluteTimeGetCurrent()
+			@before						= CFAbsoluteTimeGetCurrent()
 			now							= 0
 
 
@@ -142,12 +154,17 @@ class Fullscreen
 					end
 
 				end
+				event = nil
 
 
 				# Update our animation :
 				now			= CFAbsoluteTimeGetCurrent()
-				@controller.scene.advance_time_by(now - before) if @controller.animation_flag
-				before = now
+				#@controller.scene.advance_time_by(now - @before) if @controller.animating
+				if @controller.animating == true then
+					@controller.scene.advance_time_by(now - @before)
+					#puts "in there : " + @controller.animating.to_s
+				end
+				@before = now
 
 
 				# Render a frame :
@@ -167,7 +184,7 @@ class Fullscreen
 
 
 
-	def exit_full_screen
+	def exit_fullscreen
 
 		# Restore the previously set swap interval :
 		CGLSetParameter(@cgl_context, KCGLCPSwapInterval, @old_swap_interval)
@@ -187,7 +204,7 @@ class Fullscreen
 
 
 		# Resume animation timer firings :
-		@controller.start_animation_timer if @controller.animation_flag
+		@controller.start_animation_timer if @controller.animating
 
 	end
 
