@@ -1,7 +1,6 @@
 class Scene
 
-	attr_accessor	:roll_angle, :sun_angle,
-					:wireframe
+	attr_accessor	:drag_x_angle, :drag_y_angle
 
 
 
@@ -46,6 +45,8 @@ class Scene
 		@animation_phase		= 0.0
 
 		@roll_angle				= 0.0
+		@drag_x_angle			= 0.0
+		@drag_y_angle			= 0.0
 
 	end
 
@@ -88,8 +89,8 @@ class Scene
 		###
 
 		# Rotate the cube :
-		glRotatef(@animation_phase * 360.0, 0.0, 1.0, 0.0)
-		glRotatef(@animation_phase * 360.0, 1.0, 0.0, 0.0)
+		glRotatef(@animation_phase * 360.0 + @drag_y_angle, 1.0, 0.0, 0.0)
+		glRotatef(@animation_phase * 360.0 - @drag_x_angle, 0.0, 1.0, 0.0)
 
 
 		# Drawing the faces :

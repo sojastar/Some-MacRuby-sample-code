@@ -18,7 +18,7 @@ class MyController
 		@scene				= Scene.new
 
 
-		# Starting the animation : 
+		# Starting the animation :
 		start_animation_timer
 
 	end
@@ -75,9 +75,13 @@ class MyController
 				dragging	= false
 				
             when NSLeftMouseDragged
+
                 dx = window_point.x - last_window_point.x
                 dy = window_point.y - last_window_point.y
-                @scene.roll_angle	+= -0.5 * dy
+
+                @scene.drag_x_angle	+= -0.5 * dx
+                @scene.drag_y_angle	+= -0.5 * dy
+
                 last_window_point	 = window_point
 				
                 # Render a frame :
@@ -87,7 +91,6 @@ class MyController
 
 				else
                     @opengl_view.display
-					
 
                 end
 
@@ -97,8 +100,11 @@ class MyController
 
 
 		# Resume animating :
-		start_animation_timer
-		@fullscreen.before	= CFAbsoluteTimeGetCurrent()
+		if @fullscreen.stay_in_fullscreen_mode then
+			@fullscreen.before	= CFAbsoluteTimeGetCurrent()
+		else
+			start_animation_timer
+		end
 
 	end
 

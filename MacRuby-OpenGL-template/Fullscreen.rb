@@ -80,7 +80,10 @@ class Fullscreen
 			# Enter FullScreen mode and make our FullScreen context the active context for OpenGL commands :
 			@fullscreen_context.setFullScreen
 			@fullscreen_context.makeCurrentContext
-			
+
+
+			prepare_opengl
+
 			
 			# Save the current swap interval so we can restore it later, and then ...
 			# ... set the new swap interval to lock us to the display's refresh rate :
@@ -101,9 +104,6 @@ class Fullscreen
 
 			@controller.scene.set_viewport_rectangle(NSMakeRect(0, 0, w, h))
 
-
-	glEnable(GL_DEPTH_TEST)
-		glEnable(GL_CULL_FACE)
 
 			# --- EVENT LOOP : ---
 
@@ -206,6 +206,17 @@ class Fullscreen
 
 		# Resume animation timer firings :
 		@controller.start_animation_timer
+
+	end
+
+
+
+
+
+	def prepare_opengl
+
+		glEnable(GL_DEPTH_TEST)
+		glEnable(GL_CULL_FACE)
 
 	end
 
