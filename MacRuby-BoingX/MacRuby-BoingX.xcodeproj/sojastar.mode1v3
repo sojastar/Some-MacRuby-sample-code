@@ -230,6 +230,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -313,8 +315,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -332,16 +332,16 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>780E85BE1111553E00AA6ED5</string>
+										<string>78E3044A11DAF24900ADDA15</string>
 										<key>history</key>
 										<array>
 											<string>78A6FC6C10D7796300B12773</string>
-											<string>78A6FC8610D7819500B12773</string>
 											<string>78A659BA10D893BA00820F18</string>
-											<string>78C90A9810DC9742008BBBF0</string>
-											<string>78EA801B10DDFE1D00C437FE</string>
-											<string>78EA806510DDFF5200C437FE</string>
-											<string>78A6268C10F1D7E70013F9FA</string>
+											<string>7865B208118985BD00C457BB</string>
+											<string>7865B209118985BD00C457BB</string>
+											<string>7865B20A118985BD00C457BB</string>
+											<string>7865B20B118985BD00C457BB</string>
+											<string>78E3044911DAF24900ADDA15</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -399,9 +399,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>780E85B01111550A00AA6ED5</string>
+				<string>78E3044B11DAF24900ADDA15</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>780E85B11111550A00AA6ED5</string>
+				<string>78E3044C11DAF24900ADDA15</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -539,12 +539,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>780E85BB1111550A00AA6ED5</string>
-		<string>780E85BC1111550A00AA6ED5</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>78A6F90410D5E7EA00B12773</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-BoingX/MacRuby-BoingX.xcodeproj</string>
+		<string>/Users/sojastar/Documents/Programmation/Cocoa/MacRuby/Some-MacRuby-sample-code/MacRuby-BoingX/MacRuby-BoingX.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 59 1440 819 0 0 1440 878 </string>
@@ -624,7 +620,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>78A6F90410D5E7EA00B12773</string>
-				<string>780E85B21111550A00AA6ED5</string>
+				<string>78E3044D11DAF24900ADDA15</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

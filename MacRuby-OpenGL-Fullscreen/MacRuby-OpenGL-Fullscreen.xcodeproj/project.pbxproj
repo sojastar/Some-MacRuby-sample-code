@@ -52,6 +52,7 @@
 		78C90BB110DDD6E0008BBBF0 /* MyOpenGLView.rb in Resources */ = {isa = PBXBuildFile; fileRef = 78C90BB010DDD6E0008BBBF0 /* MyOpenGLView.rb */; };
 		78C90BB310DDD6F6008BBBF0 /* Scene.rb in Resources */ = {isa = PBXBuildFile; fileRef = 78C90BB210DDD6F6008BBBF0 /* Scene.rb */; };
 		78D9C16310F1FDAD000E3F25 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D9C16210F1FDAD000E3F25 /* GLUT.framework */; };
+		78F017F9126ABBD400DEEBD8 /* Earth.tif in Resources */ = {isa = PBXBuildFile; fileRef = 78F017F8126ABBD400DEEBD8 /* Earth.tif */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -91,6 +92,7 @@
 		78C90BB010DDD6E0008BBBF0 /* MyOpenGLView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MyOpenGLView.rb; sourceTree = "<group>"; };
 		78C90BB210DDD6F6008BBBF0 /* Scene.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Scene.rb; sourceTree = "<group>"; };
 		78D9C16210F1FDAD000E3F25 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		78F017F8126ABBD400DEEBD8 /* Earth.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Earth.tif; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* MacRuby-OpenGL-Fullscreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacRuby-OpenGL-Fullscreen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -188,6 +190,7 @@
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				78F017F6126ABBC300DEEBD8 /* Textures */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -209,6 +212,14 @@
 				78923C06110088A1009E6EA6 /* Makefile */,
 			);
 			name = "NSBitmapImageRep bundle";
+			sourceTree = "<group>";
+		};
+		78F017F6126ABBC300DEEBD8 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				78F017F8126ABBD400DEEBD8 /* Earth.tif */,
+			);
+			name = Textures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +276,7 @@
 				78C90BB110DDD6E0008BBBF0 /* MyOpenGLView.rb in Resources */,
 				78C90BB310DDD6F6008BBBF0 /* Scene.rb in Resources */,
 				787934D810F4CA79006FA92A /* Fullscreen.rb in Resources */,
+				78F017F9126ABBD400DEEBD8 /* Earth.tif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,7 +12,8 @@ class Scene
 	def initialize
 
 		# Create the texture :
-		@texture_bitmap_image_rep	= NSBitmapImageRep.imageRepWithContentsOfFile("Earth_2.tif")
+		texture_path							= NSBundle.mainBundle.pathForResource("Earth", ofType:"tif")
+		@texture_bitmap_image_rep	= NSBitmapImageRep.imageRepWithContentsOfFile(texture_path)
 
 		if @texture_bitmap_image_rep != nil then
 

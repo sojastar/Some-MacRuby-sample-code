@@ -970,8 +970,8 @@ class BasicOpenGLView < NSOpenGLView
 
 		# Init font and attributes for use with all strings :
 		font				= NSFont.fontWithName("Helvetica", size:12.0)
-		@strings_attributes	= {	'NSFontAttributeName'				=> font,
-								'NSForegroundColorAttributeName'	=> NSColor.whiteColor }
+		@strings_attributes	= {	NSFontAttributeName				=> font,
+								NSForegroundColorAttributeName	=> NSColor.whiteColor }
 
 		@message_time		= 0
 		@error_time			= 0

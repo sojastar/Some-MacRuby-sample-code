@@ -89,8 +89,10 @@ class Scene
 		###
 
 		# Rotate the cube :
-		glRotatef(@animation_phase * 360.0 + @drag_y_angle, 1.0, 0.0, 0.0)
-		glRotatef(@animation_phase * 360.0 - @drag_x_angle, 0.0, 1.0, 0.0)
+		glRotatef(@animation_phase * 360.0, 1.0, 0.0, 0.0)
+		glRotatef(@animation_phase * 360.0, 0.0, 1.0, 0.0)
+		glRotatef(@drag_y_angle, 1.0, 0.0, 0.0)
+		glRotatef(-@drag_x_angle, 0.0, 1.0, 0.0)
 
 
 		# Drawing the faces :
@@ -149,26 +151,6 @@ class Scene
 		new_animation_phase	= new_animation_phase - new_animation_phase.floor
 
 		@animation_phase		= new_animation_phase
-
-	end
-
-
-
-
-
-	def toggle_wireframe
-
-		@wireframe = !@wireframe
-
-	end
-
-
-
-
-
-	def degree_to_radiant(angle)
-
-		return angle * Math::PI / 180.0
 
 	end
 

@@ -230,8 +230,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -281,8 +279,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>11</integer>
-									<integer>3</integer>
+									<integer>16</integer>
 									<integer>2</integer>
 									<integer>0</integer>
 								</array>
@@ -318,12 +315,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>GLString.rb</string>
+								<string>BasicOpenGLView.rb</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -331,16 +330,15 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>GLString.rb</string>
+										<string>BasicOpenGLView.rb</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>780E85EF111155C000AA6ED5</string>
+										<string>78F01847126AC08E00DEEBD8</string>
 										<key>history</key>
 										<array>
 											<string>78C5A8E110D29533003F8EEA</string>
 											<string>78C5A8E210D29533003F8EEA</string>
-											<string>780B28FA10D4E7F600F63E02</string>
 											<string>780B294510D4ED6E00F63E02</string>
 											<string>780B29B210D5476D00F63E02</string>
 											<string>78A6F8A910D5D16600B12773</string>
@@ -348,10 +346,11 @@
 											<string>7875B46610DBE567005FD063</string>
 											<string>78A6249810F1B3600013F9FA</string>
 											<string>78DB87AA10FAE60D001FDBD1</string>
-											<string>78923C1011008AA2009E6EA6</string>
 											<string>78923C2611008E74009E6EA6</string>
-											<string>78923C7111009F05009E6EA6</string>
-											<string>780E85E0111155AC00AA6ED5</string>
+											<string>7865B2221189861300C457BB</string>
+											<string>7865B2231189861300C457BB</string>
+											<string>7865B24B118988CA00C457BB</string>
+											<string>7865B29511898F8900C457BB</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -409,9 +408,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>780E85E2111155AC00AA6ED5</string>
+				<string>78F01848126AC08E00DEEBD8</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>780E85E3111155AC00AA6ED5</string>
+				<string>78F01849126AC08E00DEEBD8</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -549,12 +548,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>780E85ED111155AC00AA6ED5</string>
-		<string>780E85EE111155AC00AA6ED5</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>783BCEC210CE0112000F5C0F</string>
-		<string>/Users/sojastar/Documents/Programmation/Cocoa programming/MacRuby/Some-MacRuby-sample-code/MacRuby-Cocoa-OpenGL/MacRuby-Cocoa-OpenGL.xcodeproj</string>
+		<string>/Users/sojastar/Documents/Programmation/Cocoa/MacRuby/Some-MacRuby-sample-code/MacRuby-Cocoa-OpenGL/MacRuby-Cocoa-OpenGL.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 59 1440 819 0 0 1440 878 </string>
@@ -634,7 +630,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>783BCEC210CE0112000F5C0F</string>
-				<string>780E85E4111155AC00AA6ED5</string>
+				<string>78F0184A126AC08E00DEEBD8</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -756,13 +752,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>780E85E5111155AC00AA6ED5</string>
+				<string>78F0184B126AC08E00DEEBD8</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>780E85E6111155AC00AA6ED5</string>
-				<string>780E85E7111155AC00AA6ED5</string>
-				<string>780E85E8111155AC00AA6ED5</string>
-				<string>780E85E9111155AC00AA6ED5</string>
-				<string>780E85EA111155AC00AA6ED5</string>
+				<string>78F0184C126AC08E00DEEBD8</string>
+				<string>78F0184D126AC08E00DEEBD8</string>
+				<string>78F0184E126AC08E00DEEBD8</string>
+				<string>78F0184F126AC08E00DEEBD8</string>
+				<string>78F01850126AC08E00DEEBD8</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -794,7 +790,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CDD528C0622207200134675</string>
 										<key>PBXProjectModuleLabel</key>
-										<string></string>
+										<string>BasicOpenGLView.rb</string>
 										<key>StatusBarVisibility</key>
 										<true/>
 									</dict>
@@ -852,8 +848,8 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D57069F1CE1000CFCEE</string>
-				<string>78D9C1A110F2014D000E3F25</string>
-				<string>78D9C1A210F2014D000E3F25</string>
+				<string>7865B2451189875000C457BB</string>
+				<string>7865B2461189875000C457BB</string>
 				<string>1CDD528C0622207200134675</string>
 				<string>1CD0528E0623707200166675</string>
 			</array>
@@ -881,6 +877,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -916,7 +914,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>780E85EB111155AC00AA6ED5</string>
+				<string>7865B29111898F7D00C457BB</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -926,7 +924,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

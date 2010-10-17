@@ -82,8 +82,8 @@ class MyOpenGLView < NSOpenGLView
 			caps[:cgl_display_mask]	= CGDisplayIDToOpenGLDisplayMask(display_ids[0][i])
 
 			# Get renderer info :
-			renderer_info	= Pointer.new_with_type("^{_CGLRendererInfoObject}")
-			#renderer_info	= Pointer.new_with_type("^{_CGLRendererInfoObj}")
+			#renderer_info	= Pointer.new_with_type("^{_CGLRendererInfoObject}")
+			renderer_info	= Pointer.new_with_type("^{_CGLRendererInfoObj}")
 			renderer_count	= Pointer.new_with_type("i")
 			renderer_value	= Pointer.new_with_type("i")
 

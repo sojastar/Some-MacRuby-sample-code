@@ -59,25 +59,25 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 286348706;
-			PBXWorkspaceStateSaveDate = 286348706;
+			PBXPerProjectTemplateStateSaveDate = 308985822;
+			PBXWorkspaceStateSaveDate = 308985822;
 		};
 		perUserProjectItems = {
-			780B28FA10D4E7F600F63E02 /* PBXTextBookmark */ = 780B28FA10D4E7F600F63E02 /* PBXTextBookmark */;
 			780B294510D4ED6E00F63E02 /* PBXTextBookmark */ = 780B294510D4ED6E00F63E02 /* PBXTextBookmark */;
 			780B29B210D5476D00F63E02 /* PBXTextBookmark */ = 780B29B210D5476D00F63E02 /* PBXTextBookmark */;
-			780E85E0111155AC00AA6ED5 /* PBXTextBookmark */ = 780E85E0111155AC00AA6ED5 /* PBXTextBookmark */;
-			780E85EF111155C000AA6ED5 /* PBXTextBookmark */ = 780E85EF111155C000AA6ED5 /* PBXTextBookmark */;
+			7865B2221189861300C457BB /* PBXTextBookmark */ = 7865B2221189861300C457BB /* PBXTextBookmark */;
+			7865B2231189861300C457BB /* PBXTextBookmark */ = 7865B2231189861300C457BB /* PBXTextBookmark */;
+			7865B24B118988CA00C457BB /* PBXTextBookmark */ = 7865B24B118988CA00C457BB /* PBXTextBookmark */;
+			7865B29511898F8900C457BB /* PBXTextBookmark */ = 7865B29511898F8900C457BB /* PBXTextBookmark */;
 			7875B46610DBE567005FD063 /* PBXTextBookmark */ = 7875B46610DBE567005FD063 /* PBXTextBookmark */;
-			78923C1011008AA2009E6EA6 /* PBXTextBookmark */ = 78923C1011008AA2009E6EA6 /* PBXTextBookmark */;
 			78923C2611008E74009E6EA6 /* PBXTextBookmark */ = 78923C2611008E74009E6EA6 /* PBXTextBookmark */;
-			78923C7111009F05009E6EA6 /* PBXTextBookmark */ = 78923C7111009F05009E6EA6 /* PBXTextBookmark */;
 			78A6249810F1B3600013F9FA /* PBXTextBookmark */ = 78A6249810F1B3600013F9FA /* PBXTextBookmark */;
 			78A658ED10D7A74F00820F18 /* PBXTextBookmark */ = 78A658ED10D7A74F00820F18 /* PBXTextBookmark */;
 			78A6F8A910D5D16600B12773 /* PBXTextBookmark */ = 78A6F8A910D5D16600B12773 /* PBXTextBookmark */;
 			78C5A8E110D29533003F8EEA /* PBXTextBookmark */ = 78C5A8E110D29533003F8EEA /* PBXTextBookmark */;
 			78C5A8E210D29533003F8EEA /* PBXTextBookmark */ = 78C5A8E210D29533003F8EEA /* PBXTextBookmark */;
 			78DB87AA10FAE60D001FDBD1 /* PBXTextBookmark */ = 78DB87AA10FAE60D001FDBD1 /* PBXTextBookmark */;
+			78F01847126AC08E00DEEBD8 /* PBXTextBookmark */ = 78F01847126AC08E00DEEBD8 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 783BCC4C10CDFDF5000F5C0F /* Source Control */;
 		userBuildSettings = {
@@ -103,16 +103,6 @@
 			sepNavVisRange = "{0, 490}";
 		};
 	};
-	780B28FA10D4E7F600F63E02 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 78C5A87910D24D05003F8EEA /* GLString.h */;
-		name = "GLString.h: 89";
-		rLen = 0;
-		rLoc = 2672;
-		rType = 0;
-		vrLen = 1917;
-		vrLoc = 789;
-	};
 	780B294510D4ED6E00F63E02 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 783BCEAD10CE004B000F5C0F /* Camera.rb */;
@@ -132,26 +122,6 @@
 		rType = 0;
 		vrLen = 1405;
 		vrLoc = 0;
-	};
-	780E85E0111155AC00AA6ED5 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 783BCEA110CDFF05000F5C0F /* GLString.rb */;
-		name = "GLString.rb: 37";
-		rLen = 0;
-		rLoc = 791;
-		rType = 0;
-		vrLen = 1722;
-		vrLoc = 0;
-	};
-	780E85EF111155C000AA6ED5 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 783BCEA110CDFF05000F5C0F /* GLString.rb */;
-		name = "GLString.rb: 37";
-		rLen = 0;
-		rLoc = 791;
-		rType = 0;
-		vrLen = 1834;
-		vrLoc = 1126;
 	};
 	783BCC3F10CDFDD6000F5C0F /* MacRuby-Cocoa-OpenGL */ = {
 		isa = PBXExecutable;
@@ -208,7 +178,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1168, 1300}}";
 			sepNavSelRange = "{791, 0}";
-			sepNavVisRange = "{1126, 1834}";
+			sepNavVisRange = "{0, 1722}";
 			sepNavWindowFrame = "{{-1905, 321}, {750, 874}}";
 		};
 	};
@@ -221,9 +191,9 @@
 	};
 	783BCEA610CDFF96000F5C0F /* BasicOpenGLView.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1168, 13533}}";
-			sepNavSelRange = "{19254, 0}";
-			sepNavVisRange = "{13231, 1415}";
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 13741}}";
+			sepNavSelRange = "{21205, 0}";
+			sepNavVisRange = "{20884, 1202}";
 		};
 	};
 	783BCEA910CE0012000F5C0F /* Trackball.rb */ = {
@@ -261,6 +231,46 @@
 			sepNavVisRange = "{0, 171}";
 		};
 	};
+	7865B2221189861300C457BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 783BCEA110CDFF05000F5C0F /* GLString.rb */;
+		name = "GLString.rb: 37";
+		rLen = 0;
+		rLoc = 791;
+		rType = 0;
+		vrLen = 1722;
+		vrLoc = 0;
+	};
+	7865B2231189861300C457BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78C5A87910D24D05003F8EEA /* GLString.h */;
+		name = "GLString.h: 89";
+		rLen = 0;
+		rLoc = 2672;
+		rType = 0;
+		vrLen = 1956;
+		vrLoc = 750;
+	};
+	7865B24B118988CA00C457BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78C5A87A10D24D05003F8EEA /* GLString.m */;
+		name = "GLString.m: 417";
+		rLen = 14;
+		rLoc = 9020;
+		rType = 0;
+		vrLen = 1153;
+		vrLoc = 7952;
+	};
+	7865B29511898F8900C457BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 783BCEA610CDFF96000F5C0F /* BasicOpenGLView.rb */;
+		name = "BasicOpenGLView.rb: 973";
+		rLen = 0;
+		rLoc = 21219;
+		rType = 0;
+		vrLen = 1202;
+		vrLoc = 20884;
+	};
 	7875B46610DBE567005FD063 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 783BCEAB10CE002A000F5C0F /* Cube.rb */;
@@ -271,16 +281,6 @@
 		vrLen = 846;
 		vrLoc = 0;
 	};
-	78923C1011008AA2009E6EA6 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 783BCEA610CDFF96000F5C0F /* BasicOpenGLView.rb */;
-		name = "BasicOpenGLView.rb: 890";
-		rLen = 0;
-		rLoc = 19254;
-		rType = 0;
-		vrLen = 1415;
-		vrLoc = 13231;
-	};
 	78923C2611008E74009E6EA6 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 78C5A89F10D2626F003F8EEA /* Makefile */;
@@ -290,16 +290,6 @@
 		rType = 0;
 		vrLen = 409;
 		vrLoc = 0;
-	};
-	78923C7111009F05009E6EA6 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 78C5A87A10D24D05003F8EEA /* GLString.m */;
-		name = "GLString.m: 14";
-		rLen = 0;
-		rLoc = 133;
-		rType = 0;
-		vrLen = 752;
-		vrLoc = 1530;
 	};
 	789329E910CFB2B200FC6CC8 /* Rotation.rb */ = {
 		uiCtxt = {
@@ -342,14 +332,14 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1168, 1222}}";
 			sepNavSelRange = "{2672, 0}";
-			sepNavVisRange = "{789, 1917}";
+			sepNavVisRange = "{750, 1956}";
 		};
 	};
 	78C5A87A10D24D05003F8EEA /* GLString.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1168, 5850}}";
-			sepNavSelRange = "{133, 0}";
-			sepNavVisRange = "{1530, 752}";
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 5902}}";
+			sepNavSelRange = "{9020, 14}";
+			sepNavVisRange = "{7952, 1153}";
 		};
 	};
 	78C5A89F10D2626F003F8EEA /* Makefile */ = {
@@ -391,6 +381,16 @@
 		rType = 0;
 		vrLen = 2001;
 		vrLoc = 0;
+	};
+	78F01847126AC08E00DEEBD8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 783BCEA610CDFF96000F5C0F /* BasicOpenGLView.rb */;
+		name = "BasicOpenGLView.rb: 973";
+		rLen = 0;
+		rLoc = 21205;
+		rType = 0;
+		vrLen = 1202;
+		vrLoc = 20884;
 	};
 	8D1107260486CEB800E47090 /* MacRuby-Cocoa-OpenGL */ = {
 		activeExec = 0;

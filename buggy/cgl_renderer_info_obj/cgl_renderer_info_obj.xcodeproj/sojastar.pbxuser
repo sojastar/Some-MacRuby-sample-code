@@ -59,12 +59,12 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 282892344;
-			PBXWorkspaceStateSaveDate = 282892344;
+			PBXPerProjectTemplateStateSaveDate = 294647233;
+			PBXWorkspaceStateSaveDate = 294647233;
 		};
 		perUserProjectItems = {
-			78C90B5410DCC3C1008BBBF0 /* PBXTextBookmark */ = 78C90B5410DCC3C1008BBBF0 /* PBXTextBookmark */;
-			78C90B5510DCC3C1008BBBF0 /* PBXTextBookmark */ = 78C90B5510DCC3C1008BBBF0 /* PBXTextBookmark */;
+			7818D767111715D5000C6AE1 /* PBXTextBookmark */ = 7818D767111715D5000C6AE1 /* PBXTextBookmark */;
+			78D30F19118FF5E0009C6B6F /* PBXTextBookmark */ = 78D30F19118FF5E0009C6B6F /* PBXTextBookmark */;
 		};
 		sourceControlManager = 78C90AB910DC9858008BBBF0 /* Source Control */;
 		userBuildSettings = {
@@ -75,6 +75,16 @@
 	};
 	4D1A51A510A4FF640046A98A /* Embed */ = {
 		activeExec = 0;
+	};
+	7818D767111715D5000C6AE1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78C90ABC10DC986F008BBBF0 /* MyOpenGLView.rb */;
+		name = "MyOpenGLView.rb: 86";
+		rLen = 0;
+		rLoc = 1829;
+		rType = 0;
+		vrLen = 1371;
+		vrLoc = 1073;
 	};
 	78C90AAC10DC9838008BBBF0 /* cgl_renderer_info_obj */ = {
 		isa = PBXExecutable;
@@ -123,26 +133,16 @@
 	78C90ABC10DC986F008BBBF0 /* MyOpenGLView.rb */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1171, 1456}}";
-			sepNavSelRange = "{2263, 0}";
+			sepNavSelRange = "{1829, 0}";
 			sepNavVisRange = "{1073, 1371}";
 		};
 	};
-	78C90B5410DCC3C1008BBBF0 /* PBXTextBookmark */ = {
+	78D30F19118FF5E0009C6B6F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 78C90ABC10DC986F008BBBF0 /* MyOpenGLView.rb */;
-		name = "MyWindow.rb: 1";
+		name = "MyOpenGLView.rb: 86";
 		rLen = 0;
-		rLoc = 2444;
-		rType = 0;
-		vrLen = 0;
-		vrLoc = 0;
-	};
-	78C90B5510DCC3C1008BBBF0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 78C90ABC10DC986F008BBBF0 /* MyOpenGLView.rb */;
-		name = "MyOpenGLView.rb: 96";
-		rLen = 0;
-		rLoc = 2263;
+		rLoc = 1829;
 		rType = 0;
 		vrLen = 1371;
 		vrLoc = 1073;
