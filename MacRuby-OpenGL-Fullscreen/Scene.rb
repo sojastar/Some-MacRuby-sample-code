@@ -1,4 +1,11 @@
-require 'Texturing'
+#
+#  Scene.rb
+#  MacRuby OpenGL Fullscreen
+#
+###
+
+#require "#{dir_path}/Texturing"
+#require 'Texturing'
 
 
 
@@ -12,7 +19,7 @@ class Scene
 	def initialize
 
 		# Create the texture :
-		texture_path							= NSBundle.mainBundle.pathForResource("Earth", ofType:"tif")
+		texture_path				= NSBundle.mainBundle.pathForResource("Earth", ofType:"tif")
 		@texture_bitmap_image_rep	= NSBitmapImageRep.imageRepWithContentsOfFile(texture_path)
 
 		if @texture_bitmap_image_rep != nil then

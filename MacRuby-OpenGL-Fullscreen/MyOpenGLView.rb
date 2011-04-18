@@ -1,6 +1,6 @@
 #
 #  MyOpenGLView.rb
-#  MacRuby Cocoa OpenGL
+#  MacRuby OpenGL Fullscreen
 #
 ###
 

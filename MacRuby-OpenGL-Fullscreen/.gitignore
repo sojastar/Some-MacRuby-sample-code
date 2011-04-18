@@ -1,2 +1,4 @@
-build/
+.DS_Store
+MacRuby-OpenGL-Fullscreen.xcodeproj/project.xcworkspace/
 *.bundle
+*.o

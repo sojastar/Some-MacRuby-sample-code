@@ -1,3 +1,9 @@
+#
+#  Fullscreen.rb
+#  MacRuby OpenGL Fullscreen
+#
+###
+
 class Fullscreen
 
 	attr_accessor	:controller,

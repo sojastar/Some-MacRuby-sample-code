@@ -8,8 +8,6 @@
 
 
 
-require 'ObjectiveCGLString'
-
 class GLString
 
 

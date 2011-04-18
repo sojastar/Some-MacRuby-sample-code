@@ -45,7 +45,6 @@
 /* Begin PBXBuildFile section */
 		4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */; };
 		4DE3BE140D8651D900ECA448 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE3BE130D8651D900ECA448 /* MacRuby.framework */; };
-		783BCC5010CDFE0B000F5C0F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783BCC4F10CDFE0B000F5C0F /* OpenGL.framework */; };
 		783BCC7D10CDFEC1000F5C0F /* DrawInfo.rb in Resources */ = {isa = PBXBuildFile; fileRef = 783BCC7C10CDFEC1000F5C0F /* DrawInfo.rb */; };
 		783BCEA210CDFF05000F5C0F /* GLString.rb in Resources */ = {isa = PBXBuildFile; fileRef = 783BCEA110CDFF05000F5C0F /* GLString.rb */; };
 		783BCEA410CDFF4A000F5C0F /* GLCheck.rb in Resources */ = {isa = PBXBuildFile; fileRef = 783BCEA310CDFF4A000F5C0F /* GLCheck.rb */; };
@@ -56,9 +55,10 @@
 		783BCEB010CE006B000F5C0F /* Vector.rb in Resources */ = {isa = PBXBuildFile; fileRef = 783BCEAF10CE006B000F5C0F /* Vector.rb */; };
 		783BCEB210CE00DE000F5C0F /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 783BCEB110CE00DE000F5C0F /* AppDelegate.rb */; };
 		789329EA10CFB2B200FC6CC8 /* Rotation.rb in Resources */ = {isa = PBXBuildFile; fileRef = 789329E910CFB2B200FC6CC8 /* Rotation.rb */; };
-		78A6F81410D5CBAB00B12773 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A6F81310D5CBAB00B12773 /* Foundation.framework */; };
-		78A6F81810D5CBBB00B12773 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A6F81710D5CBBB00B12773 /* OpenAL.framework */; };
-		78C5A8C010D26D82003F8EEA /* GLString.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C5A87A10D24D05003F8EEA /* GLString.m */; };
+		78B5ECAB13575A16003BEB77 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B5ECAA13575A16003BEB77 /* OpenGL.framework */; };
+		78B5ECAD13575A2A003BEB77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B5ECAC13575A2A003BEB77 /* Foundation.framework */; };
+		78B5ECAF13575A37003BEB77 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B5ECAE13575A37003BEB77 /* OpenAL.framework */; };
+		78B5ECCF13575F7B003BEB77 /* ObjectiveCGLString.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 78B5ECCE13575F7B003BEB77 /* ObjectiveCGLString.bundle */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -89,7 +89,6 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		4DE339F60D74FCDD00ADB6EE /* rb_main.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		4DE3BE130D8651D900ECA448 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = /Library/Frameworks/MacRuby.framework; sourceTree = "<absolute>"; };
-		783BCC4F10CDFE0B000F5C0F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		783BCC7C10CDFEC1000F5C0F /* DrawInfo.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = DrawInfo.rb; sourceTree = "<group>"; };
 		783BCEA110CDFF05000F5C0F /* GLString.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = GLString.rb; sourceTree = "<group>"; };
 		783BCEA310CDFF4A000F5C0F /* GLCheck.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = GLCheck.rb; sourceTree = "<group>"; };
@@ -100,34 +99,28 @@
 		783BCEAF10CE006B000F5C0F /* Vector.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Vector.rb; sourceTree = "<group>"; };
 		783BCEB110CE00DE000F5C0F /* AppDelegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
 		789329E910CFB2B200FC6CC8 /* Rotation.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Rotation.rb; sourceTree = "<group>"; };
-		78A6F81310D5CBAB00B12773 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		78A6F81710D5CBBB00B12773 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		78B5ECAA13575A16003BEB77 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		78B5ECAC13575A2A003BEB77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		78B5ECAE13575A37003BEB77 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = /System/Library/Frameworks/OpenAL.framework; sourceTree = "<absolute>"; };
+		78B5ECC413575AEC003BEB77 /* extconf.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = extconf.rb; sourceTree = "<group>"; };
+		78B5ECCE13575F7B003BEB77 /* ObjectiveCGLString.bundle */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = ObjectiveCGLString.bundle; sourceTree = "<group>"; };
 		78C5A87910D24D05003F8EEA /* GLString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLString.h; sourceTree = "<group>"; };
 		78C5A87A10D24D05003F8EEA /* GLString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLString.m; sourceTree = "<group>"; };
-		78C5A89F10D2626F003F8EEA /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		78C5A8B010D26D0B003F8EEA /* GLString.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLString.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C5A8B110D26D0B003F8EEA /* GLStringBundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GLStringBundle-Info.plist"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* MacRuby-Cocoa-OpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacRuby-Cocoa-OpenGL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		78C5A8AE10D26D0B003F8EEA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8D11072E0486CEB800E47090 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78B5ECAF13575A37003BEB77 /* OpenAL.framework in Frameworks */,
+				78B5ECAD13575A2A003BEB77 /* Foundation.framework in Frameworks */,
+				78B5ECAB13575A16003BEB77 /* OpenGL.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				4DE3BE140D8651D900ECA448 /* MacRuby.framework in Frameworks */,
-				783BCC5010CDFE0B000F5C0F /* OpenGL.framework in Frameworks */,
-				78A6F81410D5CBAB00B12773 /* Foundation.framework in Frameworks */,
-				78A6F81810D5CBBB00B12773 /* OpenAL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,11 +143,11 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				78B5ECAE13575A37003BEB77 /* OpenAL.framework */,
+				78B5ECAC13575A2A003BEB77 /* Foundation.framework */,
+				78B5ECAA13575A16003BEB77 /* OpenGL.framework */,
 				4DE3BE130D8651D900ECA448 /* MacRuby.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
-				783BCC4F10CDFE0B000F5C0F /* OpenGL.framework */,
-				78A6F81310D5CBAB00B12773 /* Foundation.framework */,
-				78A6F81710D5CBBB00B12773 /* OpenAL.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -182,7 +175,6 @@
 			isa = PBXGroup;
 			children = (
 				8D1107320486CEB800E47090 /* MacRuby-Cocoa-OpenGL.app */,
-				78C5A8B010D26D0B003F8EEA /* GLString.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -214,6 +206,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				78B5ECCE13575F7B003BEB77 /* ObjectiveCGLString.bundle */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
@@ -247,7 +240,7 @@
 			children = (
 				78C5A87910D24D05003F8EEA /* GLString.h */,
 				78C5A87A10D24D05003F8EEA /* GLString.m */,
-				78C5A89F10D2626F003F8EEA /* Makefile */,
+				78B5ECC413575AEC003BEB77 /* extconf.rb */,
 			);
 			name = "Objective C GLSTring Bundle";
 			sourceTree = "<group>";
@@ -255,27 +248,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		78C5A8AF10D26D0B003F8EEA /* GLStringBundle */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 78C5A8B410D26D0C003F8EEA /* Build configuration list for PBXNativeTarget "GLStringBundle" */;
-			buildPhases = (
-				78C5A8AC10D26D0B003F8EEA /* Resources */,
-				78C5A8AD10D26D0B003F8EEA /* Sources */,
-				78C5A8AE10D26D0B003F8EEA /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = GLStringBundle;
-			productName = GLStringBundle;
-			productReference = 78C5A8B010D26D0B003F8EEA /* GLString.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		8D1107260486CEB800E47090 /* MacRuby-Cocoa-OpenGL */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MacRuby-Cocoa-OpenGL" */;
 			buildPhases = (
+				78B5ECC613575B97003BEB77 /* ShellScript */,
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
@@ -298,13 +275,16 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MacRuby-Cocoa-OpenGL" */;
 			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* MacRuby Cocoa OpenGL */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* MacRuby-Cocoa-OpenGL */,
-				78C5A8AF10D26D0B003F8EEA /* GLStringBundle */,
 				172754BD107597F200D0347B /* Unit Tests */,
 				4D1A51A110A4FF5D0046A98A /* Compile */,
 				4D1A51A510A4FF640046A98A /* Embed */,
@@ -313,13 +293,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		78C5A8AC10D26D0B003F8EEA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8D1107290486CEB800E47090 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -337,6 +310,7 @@
 				783BCEAE10CE004B000F5C0F /* Camera.rb in Resources */,
 				783BCEA710CDFF96000F5C0F /* BasicOpenGLView.rb in Resources */,
 				783BCEB210CE00DE000F5C0F /* AppDelegate.rb in Resources */,
+				78B5ECCF13575F7B003BEB77 /* ObjectiveCGLString.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,17 +356,22 @@
 			shellPath = /bin/sh;
 			shellScript = "# The macruby_deploy command-line tool with the --embed argument will make sure the MacRuby framework will be embedded in your .app. Default options will be used. Pass the -h option to get more information.\nPATH=\"$PATH:/usr/local/bin\" macruby_deploy --embed \"$TARGET_BUILD_DIR/$PROJECT_NAME.app\"";
 		};
+		78B5ECC613575B97003BEB77 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/macruby $PROJECT_DIR/extconf.rb\nmake -f $PROJECT_DIR/Makefile";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		78C5A8AD10D26D0B003F8EEA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78C5A8C010D26D82003F8EEA /* GLString.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8D11072C0486CEB800E47090 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -486,63 +465,6 @@
 			};
 			name = Release;
 		};
-		78C5A8B210D26D0C003F8EEA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1 = x86_64;
-				COPY_PHASE_STRIP = NO;
-				EXECUTABLE_EXTENSION = bundle;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_ENABLE_OBJC_GC = required;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "GLStringBundle-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-					"-framework",
-					OpenGL,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = GLString;
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		78C5A8B310D26D0C003F8EEA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "GLStringBundle-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = GLStringBundle;
-				WRAPPER_EXTENSION = bundle;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -559,6 +481,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = "MacRuby-Cocoa-OpenGL";
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
@@ -577,6 +500,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = "MacRuby-Cocoa-OpenGL";
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -589,7 +513,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
 			};
 			name = Debug;
 		};
@@ -601,7 +525,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
 			};
 			name = Release;
 		};
@@ -631,15 +555,6 @@
 			buildConfigurations = (
 				4D1A51A610A4FF640046A98A /* Debug */,
 				4D1A51A710A4FF640046A98A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		78C5A8B410D26D0C003F8EEA /* Build configuration list for PBXNativeTarget "GLStringBundle" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78C5A8B210D26D0C003F8EEA /* Debug */,
-				78C5A8B310D26D0C003F8EEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -9,11 +9,16 @@
 framework 'Cocoa'
 framework 'OpenGL'
 
-# Loading all the Ruby project files.
+
+# Finding the path to the application bundle resource directory :
 dir_path = NSBundle.mainBundle.resourcePath.fileSystemRepresentation
+
+# Loading the ObjC bundle :
+require "#{dir_path}/ObjectiveCGLString"
+
+# Loading all the Ruby project files :
 Dir.entries(dir_path).each do |path|
   if path != File.basename(__FILE__) and path[-3..-1] == '.rb'
-	#puts "#{path}"
     require(path)
   end
 end

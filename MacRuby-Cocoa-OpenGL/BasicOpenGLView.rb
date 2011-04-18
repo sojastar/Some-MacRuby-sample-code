@@ -39,7 +39,9 @@ class BasicOpenGLView < NSOpenGLView
 	###
 	def get_current_opengl_capacities
 
-		#if GLCheck.have_opengl_capacities_changed(display_capacities, display_count) 
+		if GLCheck.have_opengl_capacities_changed(display_capacities, display_count)
+            
+        end
 
 	end
 
@@ -519,11 +521,11 @@ class BasicOpenGLView < NSOpenGLView
 
 
 		# Drawing the error message if needed :
-		#if ((current_time - @error_time) < MESSAGE_PERSISTANCE) then
-		#	fade		= (MESSAGE_PERSISTANCE - get_elapsed_time + @error_time) * 0.1	# premultiplied fade
-		#	glColor4f(fade, fade, fade, fade)
-		#	@error_glstring.drawAtPoint(NSMakePoint(10.0, message_top))
-		#end
+		if ((current_time - @error_time) < MESSAGE_PERSISTANCE) then
+			fade		= (MESSAGE_PERSISTANCE - get_elapsed_time + @error_time) * 0.1	# premultiplied fade
+			glColor4f(fade, fade, fade, fade)
+            @error_glstring.drawAtPoint(NSMakePoint(10.0, message_top)) if @error_glstring
+		end
 
 
 		# Reset orginal martices :
@@ -905,7 +907,7 @@ class BasicOpenGLView < NSOpenGLView
 		# THE BROKEN PART
 		#c,d	= GLCheck::check_opengl_capacities(0)
 		#c,d	= GLCheck::check_opengl_capacities(d)
-		#puts c
+
 
 		# Get the application start time :
 		@start_time	= Time.now.to_f
